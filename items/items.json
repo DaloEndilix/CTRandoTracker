@@ -1,0 +1,810 @@
+[
+	// Characters
+	{
+		"name": "Crono",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/crono.png",
+		"codes": "Crono"
+	},
+	{
+		"name": "Lucca",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/lucca.png",
+		"codes": "Lucca"
+	},
+	{
+		"name": "Nadia",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/marle.png",
+		"codes": "Marle,Nadia"
+	},
+	{
+		"name": "Glenn",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/frog.png",
+		"codes": "Frog,Glenn"
+	},
+	{
+		"name": "R66-Y",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/robo.png",
+		"codes": "Robo,R66-Y"
+	},
+	{
+		"name": "Ayla",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/ayla.png",
+		"codes": "Ayla"
+	},
+	{
+		"name": "Janus",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/magus.png",
+		"codes": "Magus,Janus"
+	},
+	{
+		"name": "Pendant",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/pendant.png",
+		"codes": "pendant1"
+	},
+	{
+		"name": "Pendant Charge",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/pendant2.png",
+		"codes": "pendant2"
+	},
+	{
+		"name": "Gate Key",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/gatekey.png",
+		"codes": "gatekey"
+	},
+	{
+		"name": "Magic",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/magic.png",
+		"codes": "magic"
+	},
+	{
+		"name": "Bent Hilt",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/benthilt.png",
+		"codes": "benthilt,hilt"
+	},
+	{
+		"name": "Bent Sword",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bentsword.png",
+		"codes": "bentsword,sword"
+	},
+	{
+		"name": "Hero's Medal",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/herosmedal.png",
+		"codes": "herosmedal,heromedal,medal"
+	},
+	{
+		"name": "Dreamstone",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/dreamstone.png",
+		"codes": "dreamstone,redrock"
+	},
+	{
+		"name": "Masamune",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/masamune.png",
+		"codes": "masamune"
+	  },
+	{
+		"name": "Robo's Ribbon",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/robosribbon.png",
+		"codes": "robosribbon,roboribbon,ribbon,Atropos"
+	},
+	{
+		"name": "Jerky",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/jerky.png",
+		"codes": "jerky"
+	},
+	  {
+		"name": "Moon Stone",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/moonstone.png",
+		"codes": "moonstone"
+	},
+	{
+		"name": "Charge Moon Stone",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/moonstone.png",
+		"codes": "moonstonecharge"
+	},
+	{
+		"name": "Recover Robo",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/robo.png",
+		"codes": "fionacomplete"
+	},	
+	{
+		"name": "Cath1",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/charno.png",
+		"codes": "cathrecruit1"
+	},
+	{
+		"name": "Cath2",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/charno.png",
+		"codes": "cathrecruit2"
+	},
+	{
+		"name": "PrisonRecruit",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/charno.png",
+		"codes": "prisonrecruit"
+	},
+	{
+		"name": "FairRecruit",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/charno.png",
+		"codes": "fairrecruit"
+	},
+	{
+		"name": "DactylRecruit",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/charno.png",
+		"codes": "dactylrecruit"
+	},
+	{
+		"name": "BurrowRecruit",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/charno.png",
+		"codes": "burrowrecruit"
+	},
+	{
+		"name": "NorthcapeRecruit",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/charno.png",
+		"codes": "northcaperecruit"
+	},
+	{
+		"name": "ProtoRecruit",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/charno.png",
+		"codes": "protorecruit"
+	},
+	{
+		"name": "DeathpeakRecruit",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/charno.png",
+		"codes": "deathpeakrecruit"
+	},
+	{
+		"name": "Bike Key",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bikekey.png",
+		"codes": "bikekey"
+	},
+	{
+		"name": "Race Log",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/racelog.png",
+		"codes": "racelog"
+	},
+	{
+		"name": "Refinements",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/sunstone.png",
+		"codes": "refinements"
+	},
+	{
+		"name": "Count1",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/sunstone.png",
+		"codes": "count1"
+	},
+	{
+		"name": "Count2",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/sunstone.png",
+		"codes": "count2"
+	},
+	{
+		"name": "Count3",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/sunstone.png",
+		"codes": "count3"
+	},
+	{
+		"name": "Count4",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/sunstone.png",
+		"codes": "count4"
+	},
+	{
+		"name": "Count5",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/sunstone.png",
+		"codes": "count5"
+	},
+	{
+		"name": "Count5",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/sunstone.png",
+		"codes": "count5"
+	},
+	{
+		"name": "Count6",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/sunstone.png",
+		"codes": "count6"
+	},
+	{
+		"name": "Count7",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/sunstone.png",
+		"codes": "count7"
+	},
+	{
+		"name": "Count8",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/sunstone.png",
+		"codes": "count8"
+	},
+	{
+		"name": "Dactyl",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/dactyl.png",
+		"codes": "dactyl"
+	},
+	{
+		"name": "Seed",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/seed.png",
+		"codes": "seed"
+	},
+	{
+		"name": "Sun Stone",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/sunstone.png",
+		"codes": "sunstone"
+	},
+	{
+		"name": "Rainbow Shell",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/rainbowshell.png",
+		"codes": "rainbowshell"
+	},
+	{
+		"name": "Prism Shard",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/prismshard.png",
+		"codes": "prismshard"
+	},
+	{
+		"name": "Clone",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/clone.png",
+		"codes": "clone,cronoclone"
+	},
+	{
+		"name": "C. Trigger",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/ctrigger.png",
+		"codes": "ctrigger,chronotrigger"
+	},
+	{
+		"name": "Toma's Pop",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/tomaspop.png",
+		"codes": "tomaspop,tomapop,pop,tomassoda,tomasoda,soda"
+	},
+	{
+		"name": "Grand Leon",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/masamune2.png",
+		"codes": "grandleon"
+	},
+	{
+		"name": "Ruby Knife",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/rubyknife.png",
+		"codes": "rubyknife,knife"
+	},
+	{
+		"name": "Go Button",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/gomode.png",
+		"codes": "go,gomode"
+	},
+  {
+		"name": "Tools",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/tools.png",
+		"codes": "tools"
+	},
+  {
+		"name": "Jets Of Time",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/jetsoftime.png",
+		"codes": "jetsoftime"
+	},
+	{
+		"name": "Epoch Flight",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/epoch.png",
+		"codes": "jetsoftime2"
+	},	
+  {
+		"name": "Validation Cat",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/validationcat.png",
+		"codes": "cat, validationcat"
+	},
+	// Bosses
+	{
+		"name": "Yakra",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/yakra.png",
+		"codes": "yakraboss"
+	},
+	{
+		"name": "Yakra XIII",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/yakraxiii.png",
+		"codes": "yakraxiiiboss"
+	},
+	{
+		"name": "Dragon Tank",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/dragontank.png",
+		"codes": "dragontankboss"
+	},
+	{
+		"name": "Guardian",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/guardian.png",
+		"codes": "guardianboss"
+	},
+	{
+		"name": "R-Series",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/rseries.png",
+		"codes": "rseriesboss"
+	},
+	{
+		"name": "Heckran",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/heckran.png",
+		"codes": "heckranboss"
+	},
+	{
+		"name": "Zombor",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/zombor.png",
+		"codes": "zomborboss"
+	},
+	{
+		"name": "Retinite",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/retinite.png",
+		"codes": "retiniteboss"
+	},
+	{
+		"name": "Masa & Mune",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/masamune.png",
+		"codes": "masamuneboss"
+	},
+	{
+		"name": "Nizbel",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/nizbel.png",
+		"codes": "nizbelboss"
+	},
+	{
+		"name": "Magus",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/magus.png",
+		"codes": "magusboss"
+	},
+	{
+		"name": "Black Tyrano",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/blacktyrano.png",
+		"codes": "blacktyranoboss"
+	},
+	{
+		"name": "Rust Tyrano",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/rusttyrano.png",
+		"codes": "rusttyranoboss"
+	},
+	{
+		"name": "Giga Gaia",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/gigagaia.png",
+		"codes": "gigagaiaboss"
+	},
+	{
+		"name": "Mother Brain",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/motherbrain.png",
+		"codes": "motherbrainboss"
+	},
+	{
+		"name": "Sun of Son",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/sonofsun.png",
+		"codes": "sonofsunboss"
+	},
+	{
+		"name": "Zeal",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/zeal.png",
+		"codes": "zealboss"
+	},
+	{
+		"name": "Algetty Detect",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/blackbird.png",
+		"codes": "algetty"
+	},
+	{
+		"name": "EoT Detect",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/blackbird.png",
+		"codes": "eot"
+	},
+	{
+		"name": "Omen Detect",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/go1.png",
+		"codes": "omen"
+	},
+	{
+		"name": "Bucket Detect",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/go2.png",
+		"codes": "bucket"
+	},
+	{
+		"name": "apoc Detect",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/go3.png",
+		"codes": "apoc"
+	},
+	{
+		"name": "Golem",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/golem.png",
+		"codes": "golemboss"
+	},
+	{
+		"name": "Twin Boss",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/twinboss.png",
+		"codes": "twinboss"
+	},
+	{
+		"name": "Lavos Spawn",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/lavosspawn.png",
+		"codes": "lavosspawnboss"
+	},
+	{
+		"name": "Dalton",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/dalton.png",
+		"codes": "dalton"
+	},	
+	{
+		"name": "Spekkio",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/spekkio.png",
+		"codes": "spekkio"
+	},
+	{
+		"name": "Fair",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/fair.png",
+		"codes": "fair"
+	},
+	{
+		"name": "Bekkler",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/bekkler.png",
+		"codes": "bekkler"
+	},
+	{
+		"name": "Snail",
+		"type": "toggle",
+		"loop": "false",
+		"img": "images/bosses/snail.png",
+		"codes": "snail"
+	},
+	{
+		"name": "Melchior",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/melchior.png",
+		"codes": "melchior"
+	},
+	{
+		"name": "JerkyTrade",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/jerky.png",
+		"codes": "jerkytrade"
+	},
+	{
+		"name": "Tata",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/tata.png",
+		"codes": "tata"
+	},
+	{
+		"name": "Dactyl",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/dactyl.png",
+		"codes": "dactyl"
+	},
+	{
+		"name": "Laruba Elder",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/larubaelder.png",
+		"codes": "larubaelder"
+	},
+	{
+		"name": "Gaspar",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/gaspar.png",
+		"codes": "gaspar"
+	},
+	{
+		"name": "Belthasar",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/belthasar.png",
+		"codes": "belthasar"
+	},
+	{
+		"name": "Mammon Charge",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/mammon.png",
+		"codes": "mammon"
+	},
+	{
+		"name": "Burrow Chest",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/burrow.png",
+		"codes": "burrow"
+	},
+	{
+		"name": "Cyrus Grave",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/cyrus.png",
+		"codes": "cyrus"
+	},
+	{
+		"name": "Doan Seed",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/doan.png",
+		"codes": "doan"
+	},
+	{
+		"name": "Plant",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/plant.png",
+		"codes": "plant"
+	},
+	// Flags
+	{
+    "name": "Character Locks",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/Flag_CharLock_on.png",
+        "codes": "Flag_CharLock_on,"
+      },
+      {
+        "img": "images/Flag_CharLock_off.png",
+        "codes": "Flag_CharLock_off"
+      }
+    ]
+  },
+  {
+    "name": "Early Pendant",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/Flag_EarlyPendant_off.png",
+        "codes": "Flag_EarlyPendant_off"
+      },
+      {
+        "img": "images/Flag_EarlyPendant_on.png",
+        "codes": "Flag_EarlyPendant_on, earlypendant"
+      }
+    ]
+  },
+  {
+    "name": "Chronosanity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/Flag_Chronosanity_off.png",
+        "codes": "Flag_Chronosanity_off"
+      },
+      {
+        "img": "images/Flag_Chronosanity_on.png",
+        "codes": "Flag_Chronosanity_on, chronosanity"
+      }
+    ]
+  },
+  {
+    "name": "Epoch Fail",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/Flag_Epoch_Fail_off.png",
+        "codes": "Flag_Epoch_Fail_off"
+      },
+      {
+        "img": "images/Flag_Epoch_Fail_on.png",
+        "codes": "Flag_Epoch_Fail_on, epochfail"
+      }
+    ]
+  },
+	// Additonal Instructions
+	{
+		"name": "Jerky Item",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/jerky.png",
+		"codes": "hiddenjerky"
+	},
+  {
+		"name": "Fixed Epoch",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/epoch.png",
+		"codes": "fixedepoch"
+	},
+  {
+		"name": "Ozzie",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/ozzie.png",
+		"codes": "ozzie"
+	},
+  {
+		"name": "Cyrus Grave",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/masamune.png",
+		"codes": "cyrusgrave"
+	},
+  // Check Counter for Chronosanity
+  {
+    "name": "CheckCounter",
+    "type": "consumable",
+    "img": "images/checklist.png",
+    "codes": "checklist",
+    "max_quantity": 8
+  },
+  {
+    "name": "Scaling Level",
+    "type": "consumable",
+    "img": "images/scale.png",
+    "codes": "scale",
+    "max_quantity": 99
+  },
+]

@@ -1,0 +1,25 @@
+v0.0.1
+
+Item Tracking
+Map Tracking
+
+v0.0.2
+
+Auto Tracking - includes map, objectives, scaling level, key items, bosses, events
+
+v0.0.3
+
+logic update for tyrano lair access requiring ayla
+
+v0.0.4
+fix for bent hilt/sword lighting up incorrectly in some situations
+
+v0.0.5
+- Updated Prehistory with new checks
+- Updated Dark Ages with new checks
+- Muddled with Autotracking new checks
+
+v0.0.6
++ Updated Prehistory with the Ioka Sweetwater Hut Check
++ Completely Overhauled 600 AD
+- Autotracking is now completely broken and will be added/updated later
