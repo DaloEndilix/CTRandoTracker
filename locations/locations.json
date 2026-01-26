@@ -493,6 +493,37 @@
 							}
 						]
 					},
+					{
+						"name": "Aero Dalton Imperial",
+						"access_rules":[],
+						"sections":
+						[
+              						{
+                						"name": "Attach Epoch Wings",
+                						"visibility_rules": [""],
+                						"access_rules":["jetsoftime, belthasar", "jetsoftime, magusboss", 									"jetsoftime, blacktyranoboss"],
+								"hosted_item": "jetsoftime2"
+              						},
+							{
+								"name": "Defeat Dalton",
+               							"access_rules":["jetsoftime, belthasar", "jetsoftime, magusboss", 											"jetsoftime, blacktyranoboss"],
+								"hosted_item": "dalton"
+							}
+						],
+						"map_locations":
+						[
+							{
+								"map": "Dark Ages",
+								"x": 1181,
+								"y": 821
+							},
+							{
+								"map": "All Eras",
+								"x": 1177,
+								"y": 1848
+							}
+						]
+					},
 				]
 			},
 			{
@@ -1261,7 +1292,7 @@
 						],
 						"sections":
 						[
-              {
+              						{
 								"name": "Sealed Chests",
                 						"visibility_rules": ["chronosanity"],
                 						"access_rules": ["pendant2"],
@@ -1432,10 +1463,140 @@
 				"children":
 				[
 					{
-						"name": "Guardia Castle Present",
+						"name": "Crono's House",
+						"access_rules": [""],
+						"sections":
+						[
+              						{
+                						"name": "Allowance",
+								"access_rules": ["crono"],
+                						"visibility_rules": ["chronosanity"],
+                						"chest_unopened_img": "images/mom.png",
+                						"chest_opened_img": "images/momdone.png",
+                						"item_count": 1
+              						},
+						],
+						"map_locations":
+						[
+							{
+								"map": "Present",
+								"x": 448,
+								"y": 264
+							},
+							{
+								"map": "All Eras",
+								"x": 1984,
+								"y": 1286
+							}
+						]
+					},
+					{
+						"name": "Guardia Castle 1000",
 						"access_rules":
 						[
 							""
+						],
+						"sections":
+						[
+							{
+								"name": "Recruit Prison Character (Lead Character Jailed)",
+								"access_rules":
+								[
+									"lucca","{}"
+								],
+								"hosted_item": "prisonrecruit"
+							},
+							{
+								"name": "Yakra XIII (King Trial)",
+								"access_rules":["marle,prismshard,rainbowshell"],
+								"hosted_item": "yakraxiiiboss"
+							},
+							{
+								"name": "Rainbow Shell Prism Shard",
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"access_rules":["marle,rainbowshell"],
+								"item_count": 1
+							},
+							{
+								"name": "Melchior's Refinements (Rainbow)",
+								"visibility_rules": ["chronosanity"],
+								"access_rules": ["yakraxiiiboss"],
+								"chest_unopened_img": "images/rainbowshell.png",
+								"chest_opened_img": "images/sparklechecked.png"
+							},
+							{
+								"name": "Melchior's Refinements (Sunstone)",
+								"visibility_rules": ["chronosanity"],
+								"access_rules": ["yakraxiiiboss,moonstonecharge"],
+								"chest_unopened_img": "images/sunstone.png",
+								"chest_opened_img": "images/sparklechecked.png"
+							},
+              						{
+                						"name": "Left Tower",
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 2
+              						},
+              						{
+                						"name": "Right Tower",
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 2
+              						},
+              						{
+                						"name": "Courtroom Tower",
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
+              						},
+              						{
+                						"name": "Prison Tower",
+                						"visibility_rules": ["chronosanity"],
+                						"access_rules": ["dragontankboss"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
+              						},
+              						{
+                						"name": "Rainbow Shell Treasury",
+                						"visibility_rules": ["chronosanity"],
+                						"access_rules": ["rainbowshell"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 6
+              						},
+              						{
+                						"name": "Sealed Chest",
+                						"visibility_rules": ["chronosanity"],
+                						"access_rules": ["pendant2"],
+								"chest_unopened_img": "images/sealedchest.png",
+								"chest_opened_img": "images/unsealedchest.png",
+								"item_count": 1
+              						}
+						],
+						"map_locations":
+						[
+							{
+								"map": "Present",
+								"x": 307,
+								"y": 200
+							},
+							{
+								"map": "All Eras",
+								"x": 1838,
+								"y": 1227
+							}
+						]
+					},
+					{
+						"name": "Crono Trial Prison",
+						"access_rules":
+						[
+							"[lucca]"
 						],
 						"sections":
 						[
@@ -1447,118 +1608,67 @@
 								],
 								"hosted_item": "dragontankboss"
 							},
-							{
-								"name": "Recruit Prison Character (2 man party for prison boss. If no character is present lucca is needed.",
-								"access_rules":
-								[
-									""
-								],
-								"hosted_item": "prisonrecruit"
-							},
-							{
-								"name": "Yakra XIII",
-								"access_rules":["marle,prismshard, rainbowshell"],
-								"hosted_item": "yakraxiiiboss"
-							},
-							{
-								"name": "King Guardia's Trial",
+              						{
+                						"name": "Cell Gift",
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/jerky.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
+              						},
+              						{
+                						"name": "Prison Treasury",
+                						"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
-								"access_rules":["marle,rainbowshell"],
+								"item_count": 4
+              						},
+              						{
+                						"name": "Guillotine Chamber",
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
-							},
-							{
-								"name": "Melchior's Refinements (Not a Key Item)",
-								"hosted_item": "refinements"
-							},
-              {
-                "name": "King's Tower",
-                "visibility_rules": ["chronosanity"],
+              						},
+              						{
+                						"name": "Fritz Chamber",
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
+              						},
+              						{
+                						"name": "Empty Cell Chest",
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
+              						},
+              						{
+                						"name": "Wall Climb Cell Chest",
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
+              						},
+              						{
+                						"name": "Hole Cell Chests",
+                						"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
-              },
-              {
-                "name": "Queen's Tower",
-                "visibility_rules": ["chronosanity"],
-								"chest_unopened_img": "images/kino.png",
-								"chest_opened_img": "images/kiyes.png",
-								"item_count": 2
-              },
-              {
-                "name": "Courtroom Tower",
-                "visibility_rules": ["chronosanity"],
-								"chest_unopened_img": "images/kino.png",
-								"chest_opened_img": "images/kiyes.png",
-								"item_count": 1
-              },
-              {
-                "name": "Prison Tower",
-                "visibility_rules": ["chronosanity"],
-                "access_rules": ["dragontankboss"],
-								"chest_unopened_img": "images/kino.png",
-								"chest_opened_img": "images/kiyes.png",
-								"item_count": 1
-              },
-              {
-                "name": "Guardia Treasury",
-                "visibility_rules": ["chronosanity"],
-                "access_rules": ["marle,prismshard"],
-								"chest_unopened_img": "images/kino.png",
-								"chest_opened_img": "images/kiyes.png",
-								"item_count": 6
-              },
-              {
-                "name": "Sealed Chest",
-                "visibility_rules": ["chronosanity"],
-                "access_rules": ["$canAccessSealed"],
-								"chest_unopened_img": "images/kino.png",
-								"chest_opened_img": "images/kiyes.png",
-								"item_count": 1
-              }
+              						},
 						],
 						"map_locations":
 						[
 							{
 								"map": "Present",
-								"x": 280,
-								"y": 192
+								"x": 263,
+								"y": 147
 							},
 							{
 								"map": "All Eras",
-								"x": 1816,
-								"y": 1216
-							}
-						]
-					},
-					{
-						"name": "Aero Dalton Imperial",
-						"access_rules":[],
-						"sections":
-						[
-              {
-                "name": "Attach Epoch Wings",
-                "visibility_rules": [""],
-                "access_rules":["jetsoftime, belthasar", "jetsoftime, magusboss", "jetsoftime, blacktyranoboss"],
-								"hosted_item": "jetsoftime2"
-              },
-							{
-								"name": "Defeat Dalton",
-               							 "access_rules":["jetsoftime, belthasar", "jetsoftime, magusboss", "jetsoftime, blacktyranoboss"],
-								"hosted_item": "dalton"
-							}
-						],
-						"map_locations":
-						[
-							{
-								"map": "Dark Ages",
-								"x": 1181,
-								"y": 821
-							},
-							{
-								"map": "All Eras",
-								"x": 1177,
-								"y": 1848
+								"x": 1798,
+								"y": 1173
 							}
 						]
 					},
@@ -1568,6 +1678,7 @@
 						"sections":
 						[
 							{
+								"access_rules": ["{}"],
 								"hosted_item": "snail",
 								"name": "Buy for 9900G"								
 							}
@@ -1635,11 +1746,12 @@
 							},
 							{
 								"name": "Bekkler's Game",			
-								"access_rules":["crono", "ctrigger"],
+								"access_rules":["crono", "{ctrigger}"],
 								"hosted_item": "bekkler"
 							},
 							{
 								"name": "Character Recruit",
+								"access_rules": ["{}"],
 								"hosted_item": "fairrecruit"
 							}
 						],
@@ -1683,11 +1795,12 @@
 					},
 					{
 						"name": "Lucca's House",
-						"access_rules":["heckranboss"],
+						"access_rules":[""],
 						"sections":
 						[
 							{
 								"name": "Taban's Gift",
+								"access_rules": ["heckranboss"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
@@ -1745,17 +1858,24 @@
 							}
 						]
 					},
-          {
+          				{
 						"name": "Truce Mayor's House",
 						"access_rules":[],
 						"sections":
 						[
 							{
 								"name": "Chests",
-                "visibility_rules": ["chronosanity"],
+                						"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
+							},
+							{
+								"name": "Mayor Gift",
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/mayor.png",
+								"chest_opened_img": "images/mayordone.png",
+								"item_count": 1
 							}
 						],
 						"map_locations":
@@ -1772,16 +1892,17 @@
 							}
 						]
 					},
-          {
+          				{
 						"name": "Truce Inn Present",
-						"access_rules": ["$canAccessSealed"],
+						"access_rules": [""],
 						"sections":
 						[
 							{
 								"name": "Sealed Chest",
-                "visibility_rules": ["chronosanity"],
-								"chest_unopened_img": "images/kino.png",
-								"chest_opened_img": "images/kiyes.png",
+								"access_rules": ["pendant2"],
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/sealedchest.png",
+								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 1
 							}
 						],
@@ -1882,18 +2003,27 @@
 							}
 						]
 					},
-          {
-						"name": "Guardia Forest Present",
-						"access_rules": ["$canAccessSealed"],
+          				{
+						"name": "Guardia Forest 1000",
+						"access_rules": [""],
 						"sections":
 						[
-              {
+              						{
 								"name": "Sealed Chest",
-                "visibility_rules": ["chronosanity"],
-								"chest_unopened_img": "images/kino.png",
-								"chest_opened_img": "images/kiyes.png",
+								"access_rules": ["pendant2"],
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/sealedchest.png",
+								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 1
-							}
+							},
+              						{
+								"name": "Tab Sparkle",
+								"access_rules": [""],
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
+							},
 						],
 						"map_locations":
 						[
