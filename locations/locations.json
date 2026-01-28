@@ -1706,19 +1706,19 @@
 								"name": "Heckran",
 								"hosted_item": "heckranboss"
 							},
-              {
+              						{
 								"name": "Chests",
-                "visibility_rules": ["chronosanity"],
+                						"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 4
 							},
-              {
+              						{
 								"name": "Sealed Chest",
-                "visibility_rules": ["chronosanity"],
-                "access_rules": ["$canAccessSealed"],
-								"chest_unopened_img": "images/kino.png",
-								"chest_opened_img": "images/kiyes.png",
+                						"visibility_rules": ["chronosanity"],
+                						"access_rules": ["pendant2"],
+								"chest_unopened_img": "images/sealedchest.png",
+								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 1
 							}
 						],
@@ -1771,11 +1771,12 @@
 					},
 					{
 						"name": "Melchior's Hut",
-						"access_rules":["benthilt,bentsword, lucca, dreamstone", "benthilt, bentsword, robo, dreamstone"],
+						"access_rules":[""],
 						"sections":
 						[
 							{
 								"name": "Reforge the Masamune",
+								"access_rules": ["benthilt,bentsword, lucca, dreamstone", "benthilt, bentsword, robo, dreamstone"],
 								"hosted_item": "melchior"
 							}
 						],
@@ -1820,7 +1821,7 @@
 							}
 						]
 					},
-          {
+          				{
 						"name": "Forest Ruins",
 						"access_rules":
 						[
@@ -1829,18 +1830,26 @@
 						"sections":
 						[
 							{
-								"name": "Chests",
-                "visibility_rules": ["chronosanity"],
+								"name": "Entry Chest",
+                						"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
-              {
-								"name": "Blue Pyramid",
-                "visibility_rules": ["chronosanity"],
-                "access_rules": ["$canAccessSealed"],
-								"chest_unopened_img": "images/kino.png",
-								"chest_opened_img": "images/kiyes.png",
+              						{
+								"name": "Blue Pyramid Sealed Chest (Left)",
+                						"visibility_rules": ["chronosanity"],
+                						"access_rules": ["pendant2"],
+								"chest_unopened_img": "images/sealedchest.png",
+								"chest_opened_img": "images/unsealedchest.png",
+								"item_count": 1
+							},
+              						{
+								"name": "Blue Pyramid Sealed Chest (Right)",
+                						"visibility_rules": ["chronosanity"],
+                						"access_rules": ["pendant2"],
+								"chest_unopened_img": "images/sealedchest.png",
+								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 1
 							}
 						],
@@ -1855,6 +1864,35 @@
 								"map": "All Eras",
 								"x": 2536,
 								"y": 1282
+							}
+						]
+					},
+          				{
+						"name": "Choras Residence",
+						"access_rules":
+						[
+							""
+						],
+						"sections":
+						[
+							{
+								"name": "Carpenter's Wife (Speak to Carpenter in Inn)",
+								"chest_unopened_img": "images/mom.png",
+								"chest_opened_img": "images/tools.png",
+								"item_count": 1
+							},
+						],
+						"map_locations":
+						[
+							{
+								"map": "Present",
+								"x": 1145,
+								"y": 858
+							},
+							{
+								"map": "All Eras",
+								"x": 2679,
+								"y": 1881
 							}
 						]
 					},
@@ -1893,7 +1931,7 @@
 						]
 					},
           				{
-						"name": "Truce Inn Present",
+						"name": "Truce Inn 1000",
 						"access_rules": [""],
 						"sections":
 						[
@@ -1920,30 +1958,66 @@
 							}
 						]
 					},
-          {
+          				{
+						"name": "Medina Elder's House",
+						"access_rules": [""],
+						"sections":
+						[
+							{
+								"name": "Counter Sparkle",
+								"access_rules": [""],
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
+							},
+							{
+								"name": "Upstairs Sparkle",
+								"access_rules": [""],
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
+							}
+						],
+						"map_locations":
+						[
+							{
+								"map": "Present",
+								"x": 942,
+								"y": 330
+							},
+							{
+								"map": "All Eras",
+								"x": 2475,
+								"y": 1357
+							}
+						]
+					},
+          				{
 						"name": "Porre Mayor's House",
 						"access_rules":[],
 						"sections":
 						[
 							{
-								"name": "Chests",
-                "visibility_rules": ["chronosanity"],
+								"name": "Jerky Trade (Give Jerky in 600, Talk to 1000 Mayor)",
+                						"visibility_rules": [""],
+								"access_rules":["jerky","{}"],
+								"hosted_item": "jerkytrade"
+							},
+							{
+								"name": "Upstairs Chest",
+                						"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
-							{
-								"name": "Jerky Trade (turn in 600ad, consumes 1 jerky. Then talk to 1,000 AD mayor.)",
-                "visibility_rules": [""],
-		"access_rules":["jerky"],
-								"hosted_item": "jerkytrade"
-							},
-              {
+              						{
 								"name": "Sealed Chests",
-                "visibility_rules": ["chronosanity"],
-                "access_rules": ["$canAccessSealed"],
-								"chest_unopened_img": "images/kino.png",
-								"chest_opened_img": "images/kiyes.png",
+                						"visibility_rules": ["chronosanity"],
+                						"access_rules": ["pendant2"],
+								"chest_unopened_img": "images/sealedchest.png",
+								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 2
 							}
 						],
@@ -1961,31 +2035,48 @@
 							}
 						]
 					},
-          {
-						"name": "Northern Ruins Present",
-						"access_rules":["jetsoftime2, tools"],
+					{
+						"name": "Northern Ruins 1000 (Carpenter Fixes in 600)",
+						"access_rules":["jetsoftime2,tools"],
 						"sections":
 						[
-              {
-								"name": "Upstairs",
-                "visibility_rules": ["chronosanity"],
+              						{
+								"name": "Grave Room Sparkle",
+                						"access_rules": ["cyrus"],
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
+							},
+              						{
+								"name": "Basement Chest",
+								"access_rules": ["cyrus"],
+                						"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
-              {
-								"name": "Basement",
-                "visibility_rules": ["chronosanity"],
-                "access_rules": ["frog"],
+              						{
+								"name": "Second Floor Sparkle",
+                						"access_rules": [""],
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
+							},
+              						{
+								"name": "Left Room Chest",
+                						"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
-              {
+              						{
 								"name": "Sealed Chests",
-                "visibility_rules": ["chronosanity"],
-								"chest_unopened_img": "images/kino.png",
-								"chest_opened_img": "images/kiyes.png",
+								"access_rules": ["pendant2"],
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/sealedchest.png",
+								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 3
 							}
 						],
@@ -1993,12 +2084,12 @@
 						[
 							{
 								"map": "Present",
-								"x": 1240,
+								"x": 1239,
 								"y": 684
 							},
 							{
 								"map": "All Eras",
-								"x": 2776,
+								"x": 2775,
 								"y": 1708
 							}
 						]
@@ -2036,6 +2127,34 @@
 								"map": "Present",
 								"x": 281,
 								"y": 263
+							}
+						]
+					},
+					{
+						"name": "West Cape",
+						"access_rules": [""],
+						"sections":
+						[
+              						{
+								"name": "Behind Grave",
+								"access_rules": [""],
+                						"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
+							},
+						],
+						"map_locations":
+						[
+							{
+								"map": "All Eras",
+								"x": 2567,
+								"y": 1752
+							},
+							{
+								"map": "Present",
+								"x": 1031,
+								"y": 727
 							}
 						]
 					}

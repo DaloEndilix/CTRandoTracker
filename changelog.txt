@@ -23,3 +23,27 @@ v0.0.6
 + Updated Prehistory with the Ioka Sweetwater Hut Check
 + Completely Overhauled 600 AD
 - Autotracking is now completely broken and will be added/updated later
+
+v0.0.7
++ Completely Overhauled 1000 AD
+	- Added in Tab Checks
+		- Guardia Forest 1000
+		- Medina Elder's House (2 Sparkles)
+		- Norther Ruins (2 Sparkles)
+		- West Cape
+	- Separated Guardia Castle and Prison Locations
+		- Prison checks now assume you need Lucca, but are visible without her, due to possible recruit access.
+	- All Prison Chests Added (They are now unmissable)
+	- Added in NPC Interaction Checks
+		- Chrono's Mom Allowance (Requires Chrono)
+		- Truce Mayor's Gift
+		- Melchior's Refinements for both Rainbow Shell and Sunstone (Requires King Trial)
+		- Carpenter's Wife Tool Gift
+	- Changed Sealed Chest Icons
+	- Added Sealed Chest to Forest Ruins
+	- Made Certain Checks Peekable (Blue, always visible, even without required item)
+		- Fair Recruit (If there is one)
+		- Prison Recruit (If there is one)
+		- Snail Stop
+		- Porre Mayor Jerky Trade
+	- Various Cleanups to Naming and Code
