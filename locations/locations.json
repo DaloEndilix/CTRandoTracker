@@ -15,21 +15,21 @@
 						[
 							{
 								"name": "Dactyl Recruit",
-               						        "access_rules": ["dreamstone"],
+								"access_rules": ["dreamstone"],
 								"hosted_item": "dactylrecruit"
 							},
 							{
 								"name": "Dactyl Flight",
-               						        "access_rules": ["dreamstone"],
+								"access_rules": ["dreamstone"],
 								"hosted_item": "dactyl"
 							},
-              						{
-                						"name": "Chests",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
-                						"chest_opened_img": "images/kiyes.png",
-                						"item_count": 3
-              						}
+              				{
+                				"name": "Chests",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
+                				"chest_opened_img": "images/kiyes.png",
+                				"item_count": 3
+              				}
 						],
 						"map_locations":
 						[
@@ -54,13 +54,13 @@
 								"name": "Nizbel",
 								"hosted_item": "nizbelboss"
 							},
-              						{
-                						"name": "Chests",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
+              				{
+								"name": "Chests",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
-              						}
+              				}
 						],
 						"map_locations":
 						[
@@ -76,18 +76,18 @@
 							}
 						]
 					},
-          				{
-            					"name": "Forest Maze",
+          			{
+            			"name": "Forest Maze",
 						"access_rules":["ayla", "dactyl", "jetsoftime2"],
 						"sections":
 						[
-              						{
-                						"name": "Chests",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
+              				{
+                				"name": "Chests",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 9
-              						}
+              				}
 						],
 						"map_locations":
 						[
@@ -102,19 +102,19 @@
 								"y": 713
 							}
 						]
-          				},
-          				{
-            					"name": "Mystic Mountain",
+          			},
+          			{
+            			"name": "Mystic Mountain",
 						"access_rules":[],
 						"sections":
 						[
-              						{
-                						"name": "Chests",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
+              				{
+                				"name": "Chests",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
-              						}
+              				}
 						],
 						"map_locations":
 						[
@@ -177,7 +177,7 @@
 							},
 							{
 								"name": "Dactyl Flight",
-               						        "access_rules": ["dreamstone"],
+								"access_rules": ["dreamstone"],
 								"hosted_item": "dactyl"
 							},
 						],
@@ -284,10 +284,7 @@
 				[
 					{
 						"name": "Mt Woe",
-						"access_rules":
-						[
-							""
-						],
+						"access_rules":[""],
 						"sections":
 						[
 							{
@@ -296,35 +293,35 @@
 							},
 							{
 								"name": "Screen 1",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
 							{
 								"name": "Screen 2",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 5
 							},
 							{
 								"name": "Screen 3",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 5
 							},
 							{
 								"name": "Screen 4",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
 							},
 							{
 								"name": "Screen 4 Sparkle",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
@@ -346,10 +343,7 @@
 					},
 					{
 						"name": "Terra Cave (Mt Woe Ent)",
-						"access_rules":
-						[
-							""
-						],
+						"access_rules":[""],
 						"sections":
 						[
 							{
@@ -360,7 +354,7 @@
 							},
 							{
 								"name": "Tab Sparkle",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
@@ -421,15 +415,12 @@
 					},
 					{
 						"name": "Enhasa",
-						"access_rules":
-						[
-							""
-						],
+						"access_rules":[""],
 						"sections":
 						[
 							{
 								"name": "Hidden Room Nus",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/nu.png",
 								"chest_opened_img": "images/yu.png",
 								"item_count": 1
@@ -451,29 +442,26 @@
 					},
 					{
 						"name": "Kajar",
-						"access_rules":
-						[
-							""
-						],
+						"access_rules":[""],
 						"sections":
 						[
 							{
 								"name": "Research Room Sparkle",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
 							},
 							{
 								"name": "Hidden Room Poyozo",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/poyozo.png",
 								"chest_opened_img": "images/poyono.png",
 								"item_count": 1
 							},
 							{
 								"name": "Nu Scratch (Scratch Spot in Zeal)",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/nu.png",
 								"chest_opened_img": "images/yu.png",
 								"item_count": 1
@@ -495,18 +483,18 @@
 					},
 					{
 						"name": "Aero Dalton Imperial",
-						"access_rules":[],
+						"access_rules":[""],
 						"sections":
 						[
-              						{
-                						"name": "Attach Epoch Wings",
-                						"visibility_rules": [""],
-                						"access_rules":["jetsoftime, belthasar", "jetsoftime, magusboss", 									"jetsoftime, blacktyranoboss"],
+              				{
+                				"name": "Attach Epoch Wings",
+                				"visibility_rules": [""],
+                				"access_rules":["jetsoftime, belthasar", "jetsoftime, magusboss", "jetsoftime, blacktyranoboss"],
 								"hosted_item": "jetsoftime2"
-              						},
+              				},
 							{
 								"name": "Defeat Dalton",
-               							"access_rules":["jetsoftime, belthasar", "jetsoftime, magusboss", 											"jetsoftime, blacktyranoboss"],
+               					"access_rules":["jetsoftime, belthasar", "jetsoftime, magusboss", "jetsoftime, blacktyranoboss"],
 								"hosted_item": "dalton"
 							}
 						],
@@ -529,18 +517,12 @@
 			{
 				"name": "Middle Ages",
 				"color": "#306848",
-				"access_rules":
-				[
-					""
-				],
+				"access_rules":[""],
 				"children":
 				[
 					{
 						"name": "Manoria Cathedral",
-						"access_rules":
-						[
-							""
-						],
+						"access_rules":[""],
 						"sections":
 						[
 							{
@@ -551,55 +533,55 @@
 								"name": "Saved by Recruit",
 								"hosted_item": "cathrecruit1"
 							},
-              						{
-                						"name": "Front Half",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
+              				{
+                				"name": "Front Half",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 3
-              						},
-              						{
-                						"name": "Bromide Room",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
+              				},
+              				{
+                				"name": "Bromide Room",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 3
-              						},
-              						{
-                						"name": "Soldier Bucket Sparkle",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/tabsparkle.png",
+              				},
+              				{
+                				"name": "Soldier Bucket Sparkle",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
-              						},
-              						{
-                						"name": "Disguised Royalty",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
+              				},
+              				{
+                				"name": "Disguised Royalty",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
-              						},
-              						{
-                						"name": "Shrine",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
+              				},
+              				{
+                				"name": "Shrine",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
-              						},
-              						{
-                						"name": "Back Half",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
+              				},
+              				{
+                				"name": "Back Half",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 4
-              						},
-              						{
-                						"name": "Final Chest",
-                						"visibility_rules": [""],
-                						"chest_unopened_img": "images/kino.png",
+              				},
+              				{
+                				"name": "Final Chest",
+                				"visibility_rules": [""],
+                				"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
-              						}
+              				}
 						],
 						"map_locations":
 						[
@@ -622,7 +604,7 @@
 						[
 							{
 								"name": "Chests",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
@@ -650,29 +632,23 @@
 							{
 								"name": "Return the Masamune",
 								"hosted_item": "burrowrecruit",
-								"access_rules":
-								[
-									"masamune","{}"
-								]
+								"access_rules":["masamune","{}"]
 							},
 							{
 								"name": "Burrow Left Chest",
-								"access_rules":
-								[
-									"heromedal","masamune","{}"
-								],
+								"access_rules":["heromedal","masamune","{}"],
 								"hosted_item": "burrow"
 							},
-              						{
+              				{
 								"name": "Burrow Right Chest",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
-              						{
+              				{
 								"name": "Forest Chests",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
@@ -694,19 +670,16 @@
 					},
 					{
 						"name": "Zenan Bridge",
-						"access_rules":
-						[
-							"jerky"
-						],
+						"access_rules":["jerky"],
 						"sections":
 						[
 							{
-								"name": "Zombor (No Key Item, Consumes 1 Jerky)",
+								"name": "Zombor",
 								"hosted_item": "zomborboss"
 							},
 							{
 								"name": "Captain Helmet",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": [""],
 								"chest_unopened_img": "images/captain.png",
 								"chest_opened_img": "images/captainchecked.png",
 								"item_count": 1
@@ -728,15 +701,12 @@
 					},
 					{
 						"name": "Dorino Residence",
-						"access_rules":
-						[
-							""
-						],
+						"access_rules":[""],
 						"sections":
 						[
 							{
 								"name": "Locked Dresser (Naga-ette Bromide from Cathedral)",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
@@ -758,15 +728,12 @@
 					},
 					{
 						"name": "Porre Market",
-						"access_rules":
-						[
-							""
-						],
+						"access_rules":[""],
 						"sections":
 						[
 							{
 								"name": "Corner Tab",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
@@ -788,15 +755,12 @@
 					},
 					{
 						"name": "Dorino Inn",
-						"access_rules":
-						[
-							"marle"
-						],
+						"access_rules":["marle"],
 						"sections":
 						[
 							{
 								"name": "Rest at Inn (Marle in Party)",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
@@ -847,12 +811,12 @@
 						[
 							{
 								"name": "Replant the Forest and recover Robo from Fiona's Shrine",
-                						"access_rules": ["robo,retiniteboss,lucca"],
+                				"access_rules": ["robo,retiniteboss,lucca"],
 								"hosted_item": "fionacomplete"
 							},
-              						{
+              				{
 								"name": "Chests",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
@@ -881,59 +845,59 @@
 								"name": "Masa & Mune",
 								"hosted_item": "masamuneboss"
 							},
-              						{
-                						"name": "Entrance",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
+              				{
+                				"name": "Entrance",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 5
-              						},
-              						{
-                						"name": "Right Side Climb",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
+              				},
+              				{
+                				"name": "Right Side Climb",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 6
-              						},
-              						{
-                						"name": "Frog Rock Catch (Frog Leading)",
+              				},
+              				{
+                				"name": "Frog Rock Catch (Frog Leading)",
 								"access_rules": ["frog"],
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/tabsparkle.png",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
-              						},
-              						{
-                						"name": "Waterfall Top",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
+              				},
+              				{
+                				"name": "Waterfall Top",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 3
-              						},
-              						{
-                						"name": "Mountains're Nice",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/mountainsrenice.png",
+              				},
+              				{
+                				"name": "Mountains're Nice",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/mountainsrenice.png",
 								"chest_opened_img": "images/nosybrat.png",
 								"item_count": 1
-              						},
-              						{
-                						"name": "Waterfall Drop",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
+              				},
+              				{
+                				"name": "Waterfall Drop",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
-              						},
-              						{
-                						"name": "Left Side",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
+              				},
+              				{
+                				"name": "Left Side",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 3
-              						},
+              				},
 							{
 								"name": "Left Corner Sparkle",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
@@ -960,48 +924,45 @@
 						[
 							{
 								"name": "Rescue Marle",
-								"access_rules":
-								[
-									"yakraboss","{}"
-								],
+								"access_rules":["yakraboss","{}"],
 								"hosted_item": "cathrecruit2"
 							},
-              						{
-                						"name": "Left Tower",
-                						"visibility_rules": ["chronosanity"],
+              				{
+                				"name": "Left Tower",
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
-              						},
-              						{
-                						"name": "Right Tower",
-                						"visibility_rules": ["chronosanity"],
+              				},
+              				{
+								"name": "Right Tower",
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
-              						},
-              						{
-                						"name": "Kitchen",
-                						"visibility_rules": ["chronosanity"],
+              				},
+              				{
+                				"name": "Kitchen",
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
-              						},
-             						{
-                						"name": "Sealed Chest",
-                						"visibility_rules": ["chronosanity"],
-                						"access_rules": ["pendant2"],
+              				},
+             				{
+                				"name": "Sealed Chest",
+                				"visibility_rules": ["chronosanity"],
+                				"access_rules": ["pendant2"],
 								"chest_unopened_img": "images/sealedchest.png",
 								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 1
-              						},
-              						{
-                						"name": "Chef",
-                						"visibility_rules": ["chronosanity"],
+              				},
+              				{
+                				"name": "Chef",
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/chef.png",
 								"chest_opened_img": "images/chefsteamed.png",
 								"item_count": 1
-              						}
+              				}
 						],
 						"map_locations":
 						[
@@ -1026,79 +987,79 @@
 								"name": "Rust Tyrano",
 								"hosted_item": "rusttyranoboss"
 							},
-              						{
+              				{
 								"name": "Entrance Throne Room",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
 							},
-              						{
+              				{
 								"name": "Cave After Throne",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
 							{
 								"name": "Behind Cave Skull",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
 							{
 								"name": "Behind Drop Skull Sparkle",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
 							},
 							{
 								"name": "Caverns After Drop",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 3
 							},
 							{
 								"name": "Caverns Sparkle After Drop",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
 							},
 							{
 								"name": "Ladder Caverns",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
 							},
 							{
 								"name": "Left Switch Cave",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
 							{
 								"name": "Chest Drop",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
 							{
 								"name": "Right Skull Sparkle",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
 							},
 							{
 								"name": "Kino's Cell",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
@@ -1118,15 +1079,15 @@
 							}
 						]
 					},
-          				{
+          			{
 						"name": "Magic Cave",
 						"access_rules": ["frog,masamune","jetsoftime2"],
 						"sections":
 						[
-              						{
+							{
 								"name": "Sealed Chest",
-                						"visibility_rules": ["chronosanity"],
-                						"access_rules": ["pendant2"],
+                				"visibility_rules": ["chronosanity"],
+                				"access_rules": ["pendant2"],
 								"chest_unopened_img": "images/sealedchest.png",
 								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 1
@@ -1146,21 +1107,21 @@
 							}
 						]
 					},
-          				{
+          			{
 						"name": "Choras Cafe",
 						"access_rules": ["jetsoftime2"],
 						"sections":
 						[
-              						{
+              				{
 								"name": "Toma's Pop",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/toma.png",
 								"chest_opened_img": "images/tomaspop.png",
 								"item_count": 1
 							},
-              						{
+              				{
 								"name": "Carpenter Tools (No Key Item)",
-                						"access_rules": ["tools"],
+                				"access_rules": ["tools"],
 								"chest_unopened_img": "images/carpenter.png",
 								"chest_opened_img": "images/tools.png",
 								"item_count": 1
@@ -1214,34 +1175,34 @@
 								"name": "Defeat Ozzie",
 								"hosted_item": "ozzie"
 							},
-              						{
-                						"name": "Guillotine Room",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
-                						"chest_opened_img": "images/kiyes.png",
-                						"item_count": 1
-              						},
-              						{
-                						"name": "Guillotine Room (Hidden)",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
-                						"chest_opened_img": "images/kiyes.png",
-                						"item_count": 3
-              						},
-              						{
-                						"name": "Guillotine Room Sparkle (Hidden)",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/tabsparkle.png",
-                						"chest_opened_img": "images/sparklechecked.png",
-                						"item_count": 1
-              						},
-              						{
-                						"name": "Boss Room",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/kino.png",
-                						"chest_opened_img": "images/kiyes.png",
-                						"item_count": 2
-              						}
+							{
+                				"name": "Guillotine Room",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
+                				"chest_opened_img": "images/kiyes.png",
+                				"item_count": 1
+              				},
+              				{
+                				"name": "Guillotine Room (Hidden)",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
+                				"chest_opened_img": "images/kiyes.png",
+                				"item_count": 3
+              				},
+              				{
+                				"name": "Guillotine Room Sparkle (Hidden)",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/tabsparkle.png",
+                				"chest_opened_img": "images/sparklechecked.png",
+                				"item_count": 1
+              				},
+              				{
+                				"name": "Boss Room",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/kino.png",
+                				"chest_opened_img": "images/kiyes.png",
+                				"item_count": 2
+              				}
 						],
 						"map_locations":
 						[
@@ -1262,13 +1223,13 @@
 						"access_rules": ["jetsoftime2"],
 						"sections":
 						[
-              						{
-                						"name": "Tab Sparkle",
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/tabsparkle.png",
-                						"chest_opened_img": "images/sparklechecked.png",
-                						"item_count": 1
-              						},
+              				{
+                				"name": "Tab Sparkle",
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/tabsparkle.png",
+                				"chest_opened_img": "images/sparklechecked.png",
+                				"item_count": 1
+              				},
 						],
 						"map_locations":
 						[
@@ -1286,16 +1247,13 @@
 					},
           				{
 						"name": "Porre Elder's House",
-						"access_rules":
-						[
-							""
-						],
+						"access_rules":[""],
 						"sections":
 						[
-              						{
+              				{
 								"name": "Sealed Chests",
-                						"visibility_rules": ["chronosanity"],
-                						"access_rules": ["pendant2"],
+                				"visibility_rules": ["chronosanity"],
+                				"access_rules": ["pendant2"],
 								"chest_unopened_img": "images/sealedchest.png",
 								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 2
@@ -1348,29 +1306,29 @@
 						"access_rules":["jetsoftime2,tools"],
 						"sections":
 						[
-              						{
+              				{
 								"name": "Cyrus' Grave (Visit With Frog)",
-                						"access_rules": ["frog,masamune"],
+                				"access_rules": ["frog,masamune"],
 								"hosted_item": "cyrus"
 							},
-              						{
+              				{
 								"name": "Basement Chest",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
-              						{
+              				{
 								"name": "Left Room Chest",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
-              						{
+              				{
 								"name": "Sealed Chests",
 								"access_rules": ["pendant2"],
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/sealedchest.png",
 								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 3
@@ -1395,9 +1353,9 @@
 						"access_rules":["bentsword", "benthilt"],
 						"sections":
 						[
-              						{
+              				{
 								"name": "Tata Medal Check (After Denadoro Cutscene)",
-                						"visibility_rules": [""],
+                				"visibility_rules": [""],
 								"hosted_item": "tata"
 							}
 
@@ -1421,9 +1379,9 @@
 						"access_rules": [""],
 						"sections":
 						[
-              						{
+              				{
 								"name": "Forest Tab",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
@@ -1431,7 +1389,7 @@
 							{
 								"name": "Sealed Chest",
 								"access_rules": ["pendant2"],
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/sealedchest.png",
 								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 1
@@ -1456,10 +1414,7 @@
 			{
 				"name": "Present",
 				"color": "#609040",
-				"access_rules":
-				[
-					""
-				],
+				"access_rules":[""],
 				"children":
 				[
 					{
@@ -1467,14 +1422,14 @@
 						"access_rules": [""],
 						"sections":
 						[
-              						{
-                						"name": "Allowance",
+              				{
+                				"name": "Allowance",
 								"access_rules": ["crono"],
-                						"visibility_rules": ["chronosanity"],
-                						"chest_unopened_img": "images/mom.png",
-                						"chest_opened_img": "images/momdone.png",
-                						"item_count": 1
-              						},
+                				"visibility_rules": ["chronosanity"],
+                				"chest_unopened_img": "images/mom.png",
+                				"chest_opened_img": "images/momdone.png",
+                				"item_count": 1
+              				},
 						],
 						"map_locations":
 						[
@@ -1492,24 +1447,25 @@
 					},
 					{
 						"name": "Guardia Castle 1000",
-						"access_rules":
-						[
-							""
-						],
+						"access_rules":[""],
 						"sections":
 						[
 							{
 								"name": "Recruit Prison Character (Lead Character Jailed)",
-								"access_rules":
-								[
-									"lucca","{}"
-								],
+								"access_rules":["lucca","{}"],
 								"hosted_item": "prisonrecruit"
 							},
 							{
 								"name": "Yakra XIII (King Trial)",
 								"access_rules":["marle,prismshard,rainbowshell"],
 								"hosted_item": "yakraxiiiboss"
+							},
+							{
+								"name": "Yakra Chest (Recruit and Key Item)",
+								"access_rules":["yakrakey"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
 							},
 							{
 								"name": "Rainbow Shell Prism Shard",
@@ -1532,51 +1488,51 @@
 								"chest_unopened_img": "images/sunstone.png",
 								"chest_opened_img": "images/sparklechecked.png"
 							},
-              						{
-                						"name": "Left Tower",
-                						"visibility_rules": ["chronosanity"],
+              				{
+								"name": "Left Tower",
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
-              						},
-              						{
-                						"name": "Right Tower",
-                						"visibility_rules": ["chronosanity"],
+              				},
+              				{
+								"name": "Right Tower",
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
-              						},
-              						{
-                						"name": "Courtroom Tower",
-                						"visibility_rules": ["chronosanity"],
+              				},
+              				{
+								"name": "Courtroom Tower",
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
-              						},
-              						{
-                						"name": "Prison Tower",
-                						"visibility_rules": ["chronosanity"],
-                						"access_rules": ["dragontankboss"],
+              				},
+              				{
+                				"name": "Prison Tower",
+                				"visibility_rules": ["chronosanity"],
+                				"access_rules": ["dragontankboss"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
-              						},
-              						{
-                						"name": "Rainbow Shell Treasury",
-                						"visibility_rules": ["chronosanity"],
-                						"access_rules": ["rainbowshell"],
+              				},
+              				{
+                				"name": "Rainbow Shell Treasury",
+                				"visibility_rules": ["chronosanity"],
+                				"access_rules": ["rainbowshell"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 6
-              						},
-              						{
-                						"name": "Sealed Chest",
-                						"visibility_rules": ["chronosanity"],
-                						"access_rules": ["pendant2"],
+              				},
+              				{
+                				"name": "Sealed Chest",
+                				"visibility_rules": ["chronosanity"],
+                				"access_rules": ["pendant2"],
 								"chest_unopened_img": "images/sealedchest.png",
 								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 1
-              						}
+              				}
 						],
 						"map_locations":
 						[
@@ -1594,69 +1550,63 @@
 					},
 					{
 						"name": "Crono Trial Prison",
-						"access_rules":
-						[
-							"[lucca]"
-						],
+						"access_rules":["[lucca]"],
 						"sections":
 						[
 							{
 								"name": "Defeat Dragon Tank",
-								"access_rules":
-								[
-									""
-								],
+								"access_rules":[""],
 								"hosted_item": "dragontankboss"
 							},
-              						{
-                						"name": "Cell Gift",
-                						"visibility_rules": ["chronosanity"],
+              				{
+								"name": "Cell Gift",
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/jerky.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
-              						},
-              						{
-                						"name": "Prison Treasury",
-                						"visibility_rules": ["chronosanity"],
+              				},
+              				{
+                				"name": "Prison Treasury",
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 4
-              						},
-              						{
-                						"name": "Guillotine Chamber",
-                						"visibility_rules": ["chronosanity"],
+              				},
+              				{
+                				"name": "Guillotine Chamber",
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
-              						},
-              						{
-                						"name": "Fritz Chamber",
-                						"visibility_rules": ["chronosanity"],
+              				},
+              				{
+                				"name": "Fritz Chamber",
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
-              						},
-              						{
-                						"name": "Empty Cell Chest",
-                						"visibility_rules": ["chronosanity"],
+              				},
+              				{
+                				"name": "Empty Cell Chest",
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
-              						},
-              						{
-                						"name": "Wall Climb Cell Chest",
-                						"visibility_rules": ["chronosanity"],
+              				},
+              				{
+                				"name": "Wall Climb Cell Chest",
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
-              						},
-              						{
-                						"name": "Hole Cell Chests",
-                						"visibility_rules": ["chronosanity"],
+              				},
+              				{
+                				"name": "Hole Cell Chests",
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
-              						},
+              				},
 						],
 						"map_locations":
 						[
@@ -1699,24 +1649,24 @@
 					},
 					{
 						"name": "Heckran Cave",
-						"access_rules":[],
+						"access_rules":[""],
 						"sections":
 						[
 							{
 								"name": "Heckran",
 								"hosted_item": "heckranboss"
 							},
-              						{
+              				{
 								"name": "Chests",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 4
 							},
-              						{
+              				{
 								"name": "Sealed Chest",
-                						"visibility_rules": ["chronosanity"],
-                						"access_rules": ["pendant2"],
+                				"visibility_rules": ["chronosanity"],
+                				"access_rules": ["pendant2"],
 								"chest_unopened_img": "images/sealedchest.png",
 								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 1
@@ -1823,31 +1773,28 @@
 					},
           				{
 						"name": "Forest Ruins",
-						"access_rules":
-						[
-							""
-						],
+						"access_rules":[""],
 						"sections":
 						[
 							{
 								"name": "Entry Chest",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
-              						{
+              				{
 								"name": "Blue Pyramid Sealed Chest (Left)",
-                						"visibility_rules": ["chronosanity"],
-                						"access_rules": ["pendant2"],
+                				"visibility_rules": ["chronosanity"],
+                				"access_rules": ["pendant2"],
 								"chest_unopened_img": "images/sealedchest.png",
 								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 1
 							},
-              						{
+              				{
 								"name": "Blue Pyramid Sealed Chest (Right)",
-                						"visibility_rules": ["chronosanity"],
-                						"access_rules": ["pendant2"],
+                				"visibility_rules": ["chronosanity"],
+                				"access_rules": ["pendant2"],
 								"chest_unopened_img": "images/sealedchest.png",
 								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 1
@@ -1869,10 +1816,7 @@
 					},
           				{
 						"name": "Choras Residence",
-						"access_rules":
-						[
-							""
-						],
+						"access_rules":[""],
 						"sections":
 						[
 							{
@@ -1903,14 +1847,14 @@
 						[
 							{
 								"name": "Chests",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
 							},
 							{
 								"name": "Mayor Gift",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/mayor.png",
 								"chest_opened_img": "images/mayordone.png",
 								"item_count": 1
@@ -1938,7 +1882,7 @@
 							{
 								"name": "Sealed Chest",
 								"access_rules": ["pendant2"],
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/sealedchest.png",
 								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 1
@@ -1966,7 +1910,7 @@
 							{
 								"name": "Counter Sparkle",
 								"access_rules": [""],
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
@@ -1974,7 +1918,7 @@
 							{
 								"name": "Upstairs Sparkle",
 								"access_rules": [""],
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
@@ -2001,21 +1945,21 @@
 						[
 							{
 								"name": "Jerky Trade (Give Jerky in 600, Talk to 1000 Mayor)",
-                						"visibility_rules": [""],
+                				"visibility_rules": [""],
 								"access_rules":["jerky","{}"],
 								"hosted_item": "jerkytrade"
 							},
 							{
 								"name": "Upstairs Chest",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
               						{
 								"name": "Sealed Chests",
-                						"visibility_rules": ["chronosanity"],
-                						"access_rules": ["pendant2"],
+                				"visibility_rules": ["chronosanity"],
+                				"access_rules": ["pendant2"],
 								"chest_unopened_img": "images/sealedchest.png",
 								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 2
@@ -2040,41 +1984,41 @@
 						"access_rules":["jetsoftime2,tools"],
 						"sections":
 						[
-              						{
+              				{
 								"name": "Grave Room Sparkle",
-                						"access_rules": ["cyrus"],
-                						"visibility_rules": ["chronosanity"],
+                				"access_rules": ["cyrus"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
 							},
-              						{
+              				{
 								"name": "Basement Chest",
 								"access_rules": ["cyrus"],
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
-              						{
+              				{
 								"name": "Second Floor Sparkle",
-                						"access_rules": [""],
-                						"visibility_rules": ["chronosanity"],
+                				"access_rules": [""],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
 							},
-              						{
+              				{
 								"name": "Left Room Chest",
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
 							},
-              						{
+              				{
 								"name": "Sealed Chests",
 								"access_rules": ["pendant2"],
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/sealedchest.png",
 								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 3
@@ -2099,18 +2043,18 @@
 						"access_rules": [""],
 						"sections":
 						[
-              						{
+              				{
 								"name": "Sealed Chest",
 								"access_rules": ["pendant2"],
-                						"visibility_rules": ["chronosanity"],
+								"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/sealedchest.png",
 								"chest_opened_img": "images/unsealedchest.png",
 								"item_count": 1
 							},
-              						{
+              				{
 								"name": "Tab Sparkle",
 								"access_rules": [""],
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
@@ -2135,10 +2079,10 @@
 						"access_rules": [""],
 						"sections":
 						[
-              						{
+              				{
 								"name": "Behind Grave",
 								"access_rules": [""],
-                						"visibility_rules": ["chronosanity"],
+                				"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/tabsparkle.png",
 								"chest_opened_img": "images/sparklechecked.png",
 								"item_count": 1
@@ -2172,7 +2116,7 @@
 						"sections":
 						[
 							{
-								"name": "Guardian (Check food storage after lol",
+								"name": "Guardian (Check Dead Body)",
 								"hosted_item": "guardianboss"
 							},
 							{
@@ -2180,21 +2124,36 @@
 								"access_rules":["seed"],
 								"hosted_item": "doan"
 							},
-              {
-                "name": "Chests",
-                "visibility_rules": ["chronosanity"],
+							{
+								"name": "Food Storage Chest",
+								"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
-								"item_count": 2
-              },
-              {
-                "name": "Sealed Door",
-                "visibility_rules": ["chronosanity"],
-                "access_rules": ["$canAccessSealed"],
+								"item_count": 1
+							},
+							{
+								"name": "LR+A Chest",
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
+							},
+							{
+								"name": "Sealed Door Chests",
+								"visibility_rules": ["chronosanity"],
+								"access_rules": ["pendant2"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 4
-              }
+							},
+							{
+								"name": "Sealed Door Sparkle",
+								"visibility_rules": ["chronosanity"],
+								"access_rules": ["pendant2"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
+							},
 						],
 						"map_locations":
 						[
@@ -2212,12 +2171,20 @@
 					},
 					{
 						"name": "Proto Dome",
-						"access_rules":["bikekey", "jetsoftime2"],
 						"sections":
 						[
 							{
 								"name": "Fix Robo",
+								"access_rules":["bikekey", "jetsoftime2", "gatekey, crono, marle, lucca, frog", "gatekey, crono, marle, lucca, robo", "gatekey, crono, marle, lucca, ayla", "gatekey, crono, marle, lucca, magus", "gatekey, crono, lucca, frog, robo", "gatekey, crono, lucca, frog, ayla", "gatekey, crono, lucca, frog, magus", "gatekey, crono, frog, robo, ayla", "gatekey, crono, frog, robo, magus", "gatekey, crono, frog, ayla, magus", "gatekey, crono, robo, ayla, magus", "gatekey, marle, lucca, frog, robo", "gatekey, marle, lucca, frog, ayla", "gatekey, marle, lucca, frog, magus", "gatekey, marle, lucca, robo, ayla", "gatekey, marle, lucca, robo, magus", "gatekey, marle, lucca, ayla, magus", "gatekey, marle, frog, robo, ayla", "gatekey, marle, frog, robo, magus", "gatekey, marle, frog, ayla, magus", "gatekey, lucca, frog, robo, ayla", "gatekey, lucca, frog, robo, magus", "gatekey, lucca, robo, ayla, magus", "gatekey, crono, marle, frog, robo", "gatekey, crono, marle, frog, ayla", "gatekey, crono, marle, frog, magus", "gatekey, crono, marle, robo, ayla", "gatekey, crono, marle, robo, magus", "gatekey, crono, marle, ayla, magus", "gatekey, lucca, frog, ayla, magus", "gatekey, marle, robo, ayla, magus", "gatekey, crono, lucca, robo, ayla", "gatekey, crono, lucca, robo, magus", "gatekey, crono, lucca, ayla, magus", "gatekey, frog, robo, ayla, magus"],
 								"hosted_item": "protorecruit"
+							},
+							{
+								"name": "Time Gate Sparkle",
+								"access_rules": ["jetsoftime2", "rseriesboss", "gatekey, crono, marle, lucca, frog", "gatekey, crono, marle, lucca, robo", "gatekey, crono, marle, lucca, ayla", "gatekey, crono, marle, lucca, magus", "gatekey, crono, lucca, frog, robo", "gatekey, crono, lucca, frog, ayla", "gatekey, crono, lucca, frog, magus", "gatekey, crono, frog, robo, ayla", "gatekey, crono, frog, robo, magus", "gatekey, crono, frog, ayla, magus", "gatekey, crono, robo, ayla, magus", "gatekey, marle, lucca, frog, robo", "gatekey, marle, lucca, frog, ayla", "gatekey, marle, lucca, frog, magus", "gatekey, marle, lucca, robo, ayla", "gatekey, marle, lucca, robo, magus", "gatekey, marle, lucca, ayla, magus", "gatekey, marle, frog, robo, ayla", "gatekey, marle, frog, robo, magus", "gatekey, marle, frog, ayla, magus", "gatekey, lucca, frog, robo, ayla", "gatekey, lucca, frog, robo, magus", "gatekey, lucca, robo, ayla, magus", "gatekey, crono, marle, frog, robo", "gatekey, crono, marle, frog, ayla", "gatekey, crono, marle, frog, magus", "gatekey, crono, marle, robo, ayla", "gatekey, crono, marle, robo, magus", "gatekey, crono, marle, ayla, magus", "gatekey, lucca, frog, ayla, magus", "gatekey, marle, robo, ayla, magus", "gatekey, crono, lucca, robo, ayla", "gatekey, crono, lucca, robo, magus", "gatekey, crono, lucca, ayla, magus", "gatekey, frog, robo, ayla, magus"],
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
 							}
 						],
 						"map_locations":
@@ -2236,27 +2203,27 @@
 					},
 					{
 						"name": "Factory",
-						"access_rules":["bikekey, robo", "jetsoftime2, robo"],
+						"access_rules":["bikekey, robo", "jetsoftime2, robo", "gatekey, crono, marle, lucca, robo", "gatekey, crono, lucca, frog, robo", "gatekey, crono, frog, robo, ayla", "gatekey, crono, frog, robo, magus", "gatekey, crono, robo, ayla, magus", "gatekey, marle, lucca, frog, robo", "gatekey, marle, lucca, robo, ayla", "gatekey, marle, lucca, robo, magus", "gatekey, marle, frog, robo, ayla", "gatekey, marle, frog, robo, magus", "gatekey, lucca, frog, robo, ayla", "gatekey, lucca, frog, robo, magus", "gatekey, lucca, robo, ayla, magus", "gatekey, crono, marle, frog, robo", "gatekey, crono, marle, robo, ayla", "gatekey, crono, marle, robo, magus", "gatekey, marle, robo, ayla, magus", "gatekey, crono, lucca, robo, ayla", "gatekey, crono, lucca, robo, magus", "gatekey, frog, robo, ayla, magus"],
 						"sections":
 						[
 							{
 								"name": "R-Series",
 								"hosted_item": "rseriesboss"
 							},
-              {
-                "name": "Left Side",
-                "visibility_rules": ["chronosanity"],
+							{
+								"name": "Left Side",
+								"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 4
-              },
-              {
-                "name": "Right Side",
-                "visibility_rules": ["chronosanity"],
+							},
+							{
+								"name": "Right Side",
+								"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 9
-              }
+							}
 						],
 						"map_locations":
 						[
@@ -2281,20 +2248,97 @@
 								"name": "Mother Brain",
 								"hosted_item": "motherbrainboss"
 							},
-              {
-                "name": "First Floor",
-                "visibility_rules": ["chronosanity"],
+							{
+								"name": "Central Chest",
+								"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
-								"item_count": 8
-              },
-              {
-                "name": "Second Floor",
-                "visibility_rules": ["chronosanity"],
+								"item_count": 1
+							},
+							{
+								"name": "Sparkle Under Switch Poyozo Doll",
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
+							},
+							{
+								"name": "Entryway Treasure Room",
+								"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
-								"item_count": 4
-              }
+								"item_count": 2
+							},
+							{
+								"name": "Right Side Treasure Room",
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 2
+							},
+							{
+								"name": "Second Floor Bottom Right Chest",
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
+							},
+							{
+								"name": "Second Floor Red Hallway Sparkle",
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
+							},
+							{
+								"name": "Sparkle Hidden in Secret Passage Above Conveyor",
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
+							},
+							{
+								"name": "Conveyor Charge Treasure Room",
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 2
+							},
+							{
+								"name": "Doppelganger Chest",
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
+							},
+							{
+								"name": "Chest Above Atropos XR Fight",
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
+							},
+							{
+								"name": "Sparkle Above Atropos XR Fight",
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
+							},
+							{
+								"name": "Entry Catwalk Chest",
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
+							},
+							{
+								"name": "Catwalk Room Chest",
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
+							},
 						],
 						"map_locations":
 						[
@@ -2312,24 +2356,65 @@
 					},
 					{
 						"name": "Death Peak",
-						"access_rules":["clone,ctrigger"],
 						"sections":
 						[
 							{
 								"name": "Character Recruit",
+								"access_rules":["clone,ctrigger"],
 								"hosted_item": "deathpeakrecruit"
 							},				
 							{
 								"name": "Lavos Spawns (3x)",
+								"access_rules":["clone,ctrigger"],
 								"hosted_item": "lavosspawnboss"
 							},
 							{
-								"name": "Final Chest",
-								"visibility_rules": [""],
+								"name": "Entrance Sparkle",
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
+							},
+							{
+								"name": "First Area Chest",
+								"access_rules":["clone,ctrigger"],
+								"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
-												"chest_opened_img": "images/kiyes.png",
-												"item_count": 1
-							  }
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
+							},
+							{
+								"name": "Save Point Chest",
+								"access_rules":["clone,ctrigger"],
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
+							},
+							{
+								"name": "Cave Chests",
+								"access_rules":["clone,ctrigger"],
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 3
+							},
+							{
+								"name": "Monster Dispenser Chest",
+								"access_rules":["clone,ctrigger"],
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
+							},
+							{
+								"name": "Final Climb Chests",
+								"access_rules":["clone,ctrigger"],
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 2
+							},
 						],
 						"map_locations":
 						[
@@ -2377,6 +2462,13 @@
 							{
 								"name": "Add 12,000 and 2,300 to time gauge",
 								"hosted_item": "belthasar"	
+							},
+							{
+								"name": "Sealed Door Sparkle",
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
 							}
 						],
 						"map_locations":
@@ -2395,15 +2487,24 @@
 					},
 					{
 						"name": "Trann Dome",
-						"access_rules": ["$canAccessSealed"],
+						"access_rules": [""],
 						"sections":
 						[
 							{
-								"name": "Sealed Door",
-                "visibility_rules": ["chronosanity"],
+								"name": "Sealed Door Chests",
+								"access_rules": ["pendant2"],
+								"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 2
+							},
+							{
+								"name": "Sealed Door Sparkle",
+								"access_rules": ["pendant2"],
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
 							}
 						],
 						"map_locations":
@@ -2422,12 +2523,13 @@
 					},
 					{
 						"name": "Bangor Dome",
-						"access_rules": ["$canAccessSealed"],
+						"access_rules": [""],
 						"sections":
 						[
 							{
 								"name": "Sealed Door",
-                "visibility_rules": ["chronosanity"],
+								"access_rules": ["pendant2"],
+								"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 3
@@ -2453,7 +2555,7 @@
 						[
 							{
 								"name": "Chests",
-                "visibility_rules": ["chronosanity"],
+								"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 3
@@ -2474,12 +2576,12 @@
 						]
 					},
           {
-						"name": "Lab16",
+						"name": "Lab 16",
 						"sections":
 						[
 							{
 								"name": "Chests",
-                "visibility_rules": ["chronosanity"],
+								"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 4
@@ -2500,12 +2602,20 @@
 						]
 					},
 					{
-						"name": "Lab32",
+						"name": "Lab 32",
 						"sections":
 						[
 							{
-								"name": "Chests",
-                "visibility_rules": ["chronosanity"],
+								"name": "Entrance Chest",
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/kino.png",
+								"chest_opened_img": "images/kiyes.png",
+								"item_count": 1
+							},
+							{
+								"name": "Middle Chest",
+								"access_rules": ["bikekey"],
+								"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",
 								"chest_opened_img": "images/kiyes.png",
 								"item_count": 1
@@ -2535,11 +2645,8 @@
 				"children":
 				[
 					{
-						"name": "Last Village",
-						"access_rules":
-						[
-							""
-						],
+						"name": "Last Village Commons",
+						"access_rules":[""],
 						"sections":
 						[
 							{
@@ -2559,13 +2666,13 @@
 						[
 							{
 								"map": "Last Village",
-								"x": 1083,
-								"y": 382
+								"x": 1066,
+								"y": 380
 							},
 							{
 								"map": "All Eras",
-								"x": 4296,
-								"y": 1396
+								"x": 4278,
+								"y": 1393
 							}
 						]
 					},
@@ -2597,6 +2704,34 @@
 						]
 					},
 					{
+						"name": "Last Village Nu Hut",
+						"access_rules":[""],
+						"sections":
+						[
+							{
+								"name": "Sparkle Behind Nu",
+								"access_rules": [""],
+								"visibility_rules": ["chronosanity"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
+							}
+						],
+						"map_locations":
+						[
+							{
+								"map": "Last Village",
+								"x": 1121,
+								"y": 402
+							},
+							{
+								"map": "All Eras",
+								"x": 4335,
+								"y": 1414
+							}
+						]
+					},
+					{
 						"name": "Black Omen",
 						"access_rules":
 						[
@@ -2623,7 +2758,6 @@
 							}
 						]
 					}
-					
 				]
 			},
 			{
@@ -2635,10 +2769,7 @@
 				[
 					{
 						"name": "Gaspar Key Item",
-						"access_rules":
-						[
-							"obj3", "twinboss"
-						],
+						"access_rules":["obj3", "twinboss"],
 						"sections":
 						[
 							{

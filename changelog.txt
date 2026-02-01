@@ -47,3 +47,22 @@ v0.0.7
 		- Snail Stop
 		- Porre Mayor Jerky Trade
 	- Various Cleanups to Naming and Code
+
+v0.1.0
++ Added in Yakra Key Check
++ Changed Layout to be Items, Bosses, and Events. Moved things around accordingly in the Tracker Layout.
+	- This is in preparation for creating a better defined event tracking system for Quests and Gated Checks.
++ Updated Broadcast Tracker to Match Item Tracker
++ Cleaned up Various Code
++ Future Era Updates:
+	- Updated Sealed Doors to Properly Require Charged Pendant Access
+	- Added Tab Sparkle to Trann Dome Sealed Door Check
+	- Separated Arris Dome Chests
+	- Added Tab Sparkle to Arris Dome Sealed Door Check
+	- Added Tab Sparkle to Proto Dome Time Gate Room
+	- Added End of Time Back Door Access to Proto Dome and Factory checks
+	- Added Race Log Check which Requires Bike Key
+	- Added Death's Peak Sparkle and Chests
+	- Broke Apart Geno Dome Checks and Added Sparkles
++ Last Village Era Updates:
+	- Added Sparkle Behind Nu

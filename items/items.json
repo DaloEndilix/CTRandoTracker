@@ -371,14 +371,14 @@
 		"img": "images/gomode.png",
 		"codes": "go,gomode"
 	},
-  {
+  	{
 		"name": "Tools",
 		"type": "toggle",
 		"loop": "true",
 		"img": "images/tools.png",
 		"codes": "tools"
 	},
-  {
+  	{
 		"name": "Jets Of Time",
 		"type": "toggle",
 		"loop": "true",
@@ -392,12 +392,19 @@
 		"img": "images/epoch.png",
 		"codes": "jetsoftime2"
 	},	
-  {
+  	{
 		"name": "Validation Cat",
 		"type": "toggle",
 		"loop": "true",
 		"img": "images/validationcat.png",
 		"codes": "cat, validationcat"
+	},
+  	{
+		"name": "Yakra Key",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/yakrakey.png",
+		"codes": "yakrakey"
 	},
 	// Bosses
 	{
