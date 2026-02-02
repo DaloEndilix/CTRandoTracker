@@ -66,3 +66,8 @@ v0.1.0
 	- Broke Apart Geno Dome Checks and Added Sparkles
 + Last Village Era Updates:
 	- Added Sparkle Behind Nu
+	
+v0.1.1
+- Removed old Jets of Time Files that were no longer needed.
+- Removed Zenan Bridge Captain Check, as it is now automatically gotten as a part of Zombor's boss encounter.
++ Added Johnny Race Score check, requiring the Race Log and Chrono to Lab 32.

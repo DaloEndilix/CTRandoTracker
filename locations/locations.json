@@ -677,13 +677,6 @@
 								"name": "Zombor",
 								"hosted_item": "zomborboss"
 							},
-							{
-								"name": "Captain Helmet",
-                				"visibility_rules": [""],
-								"chest_unopened_img": "images/captain.png",
-								"chest_opened_img": "images/captainchecked.png",
-								"item_count": 1
-							}
 						],
 						"map_locations":
 						[
@@ -2605,6 +2598,13 @@
 						"name": "Lab 32",
 						"sections":
 						[
+							{
+								"name": "Johnny Race Score Tab",
+								"access_rules": ["chrono, racelog"],
+								"chest_unopened_img": "images/tabsparkle.png",
+								"chest_opened_img": "images/sparklechecked.png",
+								"item_count": 1
+							},
 							{
 								"name": "Entrance Chest",
 								"visibility_rules": ["chronosanity"],
