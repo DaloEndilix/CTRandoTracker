@@ -378,7 +378,8 @@ KEY_ITEMS = {
   {value=0xE3, name="tomapop", callback=handleItemTurnin, address=0x7F01A3, flag=0x80},
   {value=0xE9, name="jetsoftime", callback=handleItemTurnin, address=0x7F00BA, flag=0x80},
   {value=0xEA, name="pendant2"},
-  {value=0xEB, name="rainbowshell"}
+  {value=0xEB, name="rainbowshell"},
+  (value=0xE1, name="yakrakey")
 }
 
 --
@@ -488,9 +489,10 @@ function updateEventsAndBosses(segment)
   updateBoss("golemboss", segment, 0x7F0102, 0x80)
   updateBoss("twinboss", segment, 0x7F0103, 0x02)
   updateBoss("plant", segment, 0x7F00F7, 0x02)
+  updateBoss("mudimpboss", segment, 0x7F0103, 0x04)
 
   -- Middle Ages
-  updateBoss("cathrecruit1", segment, 0x7F0100, 0x20)
+  updateBoss("cathrecruit1", segment, 0x7F0100, 0x08)
   updateBoss("cathrecruit2", segment, 0x7F0100, 0x80)
   updateBoss("burrowrecruit", segment,0x7F0101, 0x40)
   updateBoss("burrow", segment, 0x7F0101, 0x20)
@@ -553,25 +555,43 @@ function updateEventsAndBosses(segment)
   if not itemsOnlyTracking() then
     -- Prehistory
     --keyItemChecksDone = keyItemChecksDone + updateEvent("@Reptite Lair/Defeat Nizbel", segment, 0x7F0105, 0x20)
-	updateEvent("@Dactyl Nest/Dactyl Flight", segment, 0x7F0160, 0x10)
-	updateEvent("@Laruba Ruins/Sleepy Nu", segment, 0x7F01AC, 0x20)
-	updateEvent("@Hunting Range/Nu Fight", segment, 0x7F01D1, 0x08)
-	updateEvent("@Ioka Sweetwater Hut/Ioka Tonic", segment, 0x7F0160, 0x40)
+		updateEvent("@Dactyl Nest/Dactyl Flight", segment, 0x7F0160, 0x10)
+		updateEvent("@Laruba Ruins/Dactyl Flight", segment, 0x7F0160, 0x10)
+		updateEvent("@Laruba Ruins/Sleepy Nu", segment, 0x7F01AC, 0x20)
+		updateEvent("@Hunting Range/Nu Fight", segment, 0x7F01D1, 0x08)
+		updateEvent("@Ioka Sweetwater Hut/Ioka Tonic", segment, 0x7F0160, 0x40)
     
     -- Dark Ages
     --keyItemChecksDone = keyItemChecksDone + updateEvent("@Mt Woe/Defeat Giga Gaia", segment, 0x7F0100, 0x20) -- same as boss flag
-	updateEvent("@Kajar/Nu Scratch (Scratch Spot in Zeal)", segment, 0x7F00F6, 0x08)
-	updateEvent("@Terra Cave (Mt Woe Ent)/Tab Sparkle", segment, 0x7F01A4, 0x10)
-	updateEvent("@Mt Woe/Screen 4 Sparkle", segment, 0x7F01A4, 0x20)
-	updateEvent("@Enhasa/Hidden Room Nus", segment, 0x7F00F4, 0x08)
-	updateEvent("@Kajar/Hidden Room Poyozo", segment, 0x7F00F4, 0x20)
-	updateEvent("@Terra Cave (Mt Woe Ent)/Mud Imp", segment, 0x7F0103, 0x04)
-	updateEvent("@Kajar/Research Room Sparkle", segment, 0x7F00F6, 0x04)
+		updateEvent("@Kajar/Nu Scratch (Scratch Spot in Zeal)", segment, 0x7F00F6, 0x08)
+		updateEvent("@Terra Cave (Mt Woe Ent)/Tab Sparkle", segment, 0x7F01A4, 0x10)
+		updateEvent("@Mt Woe/Screen 4 Sparkle", segment, 0x7F01A4, 0x20)
+		updateEvent("@Enhasa/Hidden Room Nus", segment, 0x7F00F4, 0x08)
+		updateEvent("@Kajar/Hidden Room Poyozo", segment, 0x7F00F4, 0x20)
+		updateEvent("@Terra Cave (Mt Woe Ent)/Mud Imp", segment, 0x7F0103, 0x04)
+		updateEvent("@Kajar/Research Room Sparkle", segment, 0x7F00F6, 0x04)
 	-- Don't check these events in Lost Worlds mode, they don't exist.
       -- Moonstone is the only prehistory event that is not part of the Lost Worlds mode.
       --updateEvent("@Sun Keep/Charge the Moonstone", segment, 0x7F013A, 0x40)
     
       -- Middle Ages
+		updateEvent("@Guardia Castle 600/Chef", segment, 0x7F00A9, 0x10)
+		updateEvent("@Manoria Cathedral/Soldier Bucket Sparkle", segment, 0x7F00F6, 0x10)
+		updateEvent("@Guardia Forest 600/Forest Tab", segment, 0x7F01D3, 0x08)
+		updateEvent("@Dorino Residence/Locked Dresser (Naga-ette Bromide from Cathedral)", segment, 0x7F00F6, 0x02)
+		updateEvent("@Dorino Inn/Rest at Inn (Marle in Party)", segment, 0x7F0107, 0x40)
+		updateEvent("@Denadoro Mts/Frog Rock Catch (Frog Leading)", segment, 0x7F00F7, 0x08)
+		updateEvent("@Denadoro Mts/Mountains're Nice", segment, 0x7F0070, 0x01)
+		updateEvent("@Denadoro Mts/Left Corner Sparkle", segment, 0x7F0064, 0x40)
+		updateEvent("@Porre Market/Corner Tab", segment, 0x7F01D3, 0x01)
+		updateEvent("@Ozzie's Fort/Guillotine Room Sparkle (Hidden)", segment, 0x7F01A4, 0x40)
+		updateEvent("@Sun Keep 600/Tab Sparkle", segment, 0x7F014A, 0x02)
+		updateEvent("@Northern Ruins 600 (Carpenter Fixes)/Basement Chest", segment, 0x7F01AC, 0x02)
+		updateEvent("@Northern Ruins 600 (Carpenter Fixes)/Caverns Sparkle After Drop", segment, 0x7F01AC, 0x08)
+		updateEvent("@Choras Cafe/Toma's Pop", segment, 0x7F01A0, 0x02)
+		updateEvent("@Giant's Claw (Defile Toma's Grave in 1000)/Behind Drop Skull Sparkle", segment, 0x7F01D3, 0x02)
+		updateEvent("@Giant's Claw (Defile Toma's Grave in 1000)/Caverns Sparkle After Drop", segment, 0x7F01D3, 0x80)
+		updateEvent("@Giant's Claw (Defile Toma's Grave in 1000)/Right Skull Sparkle", segment, 0x7F01D3, 0x40)
       --updateEvent("@Manoria Cathedral/Saved by Frog", segment, 0x7F0100, 0x01)
       --updateEvent("@Guardia Castle Past/Rescue Marle", segment, 0x7F00A1, 0x04)
       --keyItemChecksDone = keyItemChecksDone + updateEvent("@Denadoro Mts/Defeat Masamune", segment, 0x7F0102, 0x02)
@@ -590,7 +610,7 @@ function updateEventsAndBosses(segment)
       --updateEvent("@Melchior's Hut/Reforge the Masamune", segment, 0x7F0103, 0x02)
       --updateEvent("Guardia Castle Present/Prison Break", segment, 0x7F0199, 0x04)
       -- The trial is a guess. Two flags go high here and I just picked one arbitrarily
-      keyItemChecksDone = keyItemChecksDone + updateEvent("@Guardia Castle Present/King Guardia's Trial", segment, 0x7F00A2, 0x80)
+      keyItemChecksDone = keyItemChecksDone + updateEvent("@Guardia Castle 1000/King Guardia's Trial", segment, 0x7F00A2, 0x80)
       --keyItemChecksDone = keyItemChecksDone + handleMelchiorRefinements(segment)
       
     -- Future
@@ -1019,21 +1039,19 @@ function updateChests(segment)
 
   -- Guardia Castle Past
   chests = {
-    ["King's Tower"] = {
+    ["Left Tower"] = {
       {0x1E, 0x04},
       {0x03, 0x20}
     },
-    ["Queen's Tower"] = {
-      {0x1D, 0x08}
-    },
-    ["Queen's Room"] = {
-      {0x03, 0x40}
+    ["Right Tower"] = {
+      {0x1D, 0x08},
+	  {0x03, 0x40}
     },
     ["Kitchen"] = {
       {0x03, 0x80}
     }
   }
-  chestsOpened = chestsOpened + handleChests(segment, "@Guardia Castle Past/", chests)
+  chestsOpened = chestsOpened + handleChests(segment, "@Guardia Castle 600/", chests)
   
   -- Manoria Cathedral
   chests = {
@@ -1101,7 +1119,7 @@ function updateChests(segment)
       {0x06, 0x10}, -- Waterfall top - top chest
       {0x06, 0x20}  -- Waterfall top - Left Chest
     },
-    ["Waterfall Bottom"] = {
+    ["Waterfall Drop"] = {
       {0x06, 0x02}, -- Waterfall bottom - left chest
       {0x06, 0x04}  -- Waterfall bottom - right chest
     },
@@ -1140,13 +1158,15 @@ function updateChests(segment)
   
   -- Ozzie's Fort
   chests = {
-    ["Front Half"] = {
-      {0x0A, 0x10},
+    ["Guillotine Room"] = {
+      {0x0A, 0x10}
+    },
+	["Guillotine Room (Hidden)"] = {
       {0x0A, 0x20},
       {0x0A, 0x40},
       {0x0A, 0x80}
     },
-    ["Back Half"] = {
+    ["Boss Room"] = {
       {0x0B, 0x01},
       {0x0B, 0x02}
     }

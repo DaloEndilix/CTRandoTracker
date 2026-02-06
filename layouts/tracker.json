@@ -48,8 +48,8 @@
 						"item_margin": "1,1",
 						"rows":
 						[
-							[ "yakraboss", "yakraxiiiboss", "dragontankboss","rusttyranoboss", "retiniteboss", "heckranboss", "zomborboss" ],
-							[ "blacktyranoboss", "sonofsunboss", "guardianboss", "rseriesboss", "masamuneboss", "nizbelboss", "zealboss" ],
+							[ "yakraboss", "yakraxiiiboss", "dragontankboss","rusttyranoboss", "blacktyranoboss", "retiniteboss", "heckranboss", "zomborboss" ],
+							[ "mudimpboss", "sonofsunboss", "guardianboss", "rseriesboss", "masamuneboss", "nizbelboss", "zealboss" ],
 							[ "magusboss", "gigagaiaboss", "motherbrainboss", "lavosspawnboss","dalton", "golemboss", "twinboss" ],
 						]
 					}

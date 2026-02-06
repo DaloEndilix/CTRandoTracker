@@ -701,6 +701,13 @@
 		"img": "images/bosses/plant.png",
 		"codes": "plant"
 	},
+	{
+		"name": "Mud Imp",
+		"type": "toggle",
+		"loop": "true",
+		"img": "images/bosses/mudimp.png",
+		"codes": "mudimpboss"
+	},
 	// Flags
 	{
     "name": "Character Locks",

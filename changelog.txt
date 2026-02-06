@@ -71,3 +71,22 @@ v0.1.1
 - Removed old Jets of Time Files that were no longer needed.
 - Removed Zenan Bridge Captain Check, as it is now automatically gotten as a part of Zombor's boss encounter.
 + Added Johnny Race Score check, requiring the Race Log and Chrono to Lab 32.
+
+v0.1.2
++ Added Yakra Key to autotracking
++ Ensured Laruba Ruins Dactyl Activates if Dactyl is unlocked via Dactyl Nest and vice versa for autotracking.
++ Updated the Cathedral Recruit at the Naga-ette battle to activate when you fight the battle rather than if you get a recruit.
++ Made the Beast Cave Boss (Mud Imp) a trackable boss and added the autotracking for this.
++ Fixed Autotracking for:
+	- Guardia Castle 600 (Chests and Chef Rewards)
+	- Cathedral Bucket Tab
+	- Guardia Forest Tab
+	- Naga-ette Bromide Tab
+	- Dorino Inn Powermeal
+	- Denadoro Mts (Chests, Gold Rock, and Tab Rewards)
+	- Porre Market 600 Tab
+	- Ozzie's Fort (Chests and Tab Rewards)
+	- Sun Keep 600 Tab
+	- Northern Ruins 600 Chests
+	- Choras Cafe Item from Toma
+	- Giant's Claw Sparkles
