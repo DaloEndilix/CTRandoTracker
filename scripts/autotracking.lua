@@ -379,7 +379,7 @@ KEY_ITEMS = {
   {value=0xE9, name="jetsoftime", callback=handleItemTurnin, address=0x7F00BA, flag=0x80},
   {value=0xEA, name="pendant2"},
   {value=0xEB, name="rainbowshell"},
-  (value=0xE1, name="yakrakey")
+  {value=0xE1, name="yakrakey"}
 }
 
 --
@@ -1223,7 +1223,7 @@ function updateChests(segment)
     },
     ["Wall Climb Cell Chest"] = {
       {0x02, 0x40}
-    }
+    },
 	["Hole Cell Chests"] = {
       {0x02, 0x10},
 	  {0x02, 0x20}
