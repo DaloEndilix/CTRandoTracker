@@ -19,10 +19,9 @@
 						"rows":
 						[
 							[ "crono", "lucca", "marle", "frog", "robo","ayla", "magus" ],
-							[ "benthilt", "bentsword", "masamune", "grandleon",  "heromedal", "seed", "bikekey", "yakrakey"],
-							[ "gatekey", "dreamstone", "rubyknife", "rainbowshell", "prismshard", "tools", "racelog", "dactyl"],
-							[ "pendant1", "ctrigger", "clone", "tomapop", "jerky", "moonstone", "sunstone", "jetsoftime"],
-							[ "jetsoftime2", "pendant2"]
+							[ "benthilt", "bentsword", "masamune", "grandleon",  "heromedal", "seed", "bikekey", "yakrakey", "tomapop"],
+							[ "gatekey", "dreamstone", "rubyknife", "rainbowshell", "prismshard", "tools", "racelog", "dactyl", "jerky"],
+							[ "pendant1", "pendant2", "ctrigger", "clone", "moonstone", "sunstone", "jetsoftime", "jetsoftime2"],
 						]
 					},
 				]

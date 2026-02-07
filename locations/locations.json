@@ -1426,12 +1426,12 @@
 						[
 							{
 								"map": "Present",
-								"x": 448,
+								"x": 456,
 								"y": 264
 							},
 							{
 								"map": "All Eras",
-								"x": 1984,
+								"x": 1992,
 								"y": 1286
 							}
 						]
@@ -1460,10 +1460,8 @@
 							},
 							{
 								"name": "Rainbow Shell Prism Shard",
-								"chest_unopened_img": "images/tabsparkle.png",
-								"chest_opened_img": "images/sparklechecked.png",
 								"access_rules":["marle,rainbowshell"],
-								"item_count": 1
+								"hosted_item": "prismshard"
 							},
 							{
 								"name": "Melchior's Refinements (Rainbow)",

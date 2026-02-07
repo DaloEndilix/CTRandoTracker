@@ -19,23 +19,96 @@
 						"rows":
 						[
 							[ "crono", "lucca", "marle", "frog", "robo","ayla", "magus" ],
-							[ "benthilt", "bentsword", "masamune", "grandleon",  "heromedal", "seed", "bikekey", "scale"],
-							[ "gatekey", "dreamstone", "rubyknife", "rainbowshell", "prismshard", "tools", "racelog", "dactyl"],
-							[ "pendant1", "ctrigger", "clone", "tomapop", "jerky", "moonstone", "sunstone", "jetsoftime"],
-							[ "jetsoftime2", "algetty", "omen", "bucket", "apoc", "go", "checklist", "Pendant2"]
+							[ "benthilt", "bentsword", "masamune", "grandleon",  "heromedal", "seed", "bikekey", "yakrakey", "tomapop"],
+							[ "gatekey", "dreamstone", "rubyknife", "rainbowshell", "prismshard", "tools", "racelog", "dactyl", "jerky"],
+							[ "pendant1", "pendant2", "ctrigger", "clone", "moonstone", "sunstone", "jetsoftime", "jetsoftime2"],
 						]
 					},
+				]
+			}
+		]
+	},
+	"boss_grid":
+	{
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content":
+		[
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "0,0",
+				"content":
+				[
 					{
 						"type": "itemgrid",
 						"h_alignment": "center",
 						"item_margin": "1,1",
 						"rows":
 						[
-							[ "yakraboss", "yakraxiiiboss", "dragontankboss","rusttyranoboss", "retiniteboss", "heckranboss", "zomborboss" ],
-							[ "blacktyranoboss", "sonofsunboss", "guardianboss", "rseriesboss", "masamuneboss", "nizbelboss", "zealboss" ],
+							[ "yakraboss", "yakraxiiiboss", "dragontankboss","rusttyranoboss", "blacktyranoboss", "retiniteboss", "heckranboss", "zomborboss" ],
+							[ "mudimpboss", "sonofsunboss", "guardianboss", "rseriesboss", "masamuneboss", "nizbelboss", "zealboss" ],
 							[ "magusboss", "gigagaiaboss", "motherbrainboss", "lavosspawnboss","dalton", "golemboss", "twinboss" ],
+						]
+					}
+				]
+			}
+		]
+	},
+	"event_grid":
+	{
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content":
+		[
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "0,0",
+				"content":
+				[
+					{
+						"type": "itemgrid",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"rows":
+						[
+							[ "scale", "algetty", "omen", "bucket", "apoc", "go", "checklist"],
 							[ "fair", "bekkler", "snail", "melchior", "jerkytrade", "tata", "plant" ],
 							[ "gaspar", "mammon", "burrow", "cyrus", "doan", "belthasar", "moonstonecharge" ]
+						]
+					}
+				]
+			}
+		]
+	},
+	"flag_grid":
+	{
+		"type": "array",
+		"orientation": "vertical",
+		"margin": "0,0",
+		"content":
+		[
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"margin": "0,0",
+				"content":
+				[
+					{
+						"type": "array",
+						"h_alignment": "center",
+						"item_margin": "1,1",
+						"content":
+						[
+              {
+                "type": "item",
+						    "item": "Flag_Chronosanity_off",
+						    "scale": 0.90,
+                "margin": "0,5"
+              }
 						]
 					}
 				]
@@ -47,8 +120,17 @@
 		"type": "container",
 		"content":
 		{
-			"type": "layout",
-			"key": "shared_item_grid"
+			"type": "itemgrid",
+			"h_alignment": "center",
+			"item_margin": "1,1",
+			"rows":
+			[
+							[ "crono", "lucca", "marle", "frog", "robo","ayla", "magus" ],
+							[ "benthilt", "bentsword", "masamune", "grandleon",  "heromedal", "seed", "bikekey", "yakrakey"],
+							[ "gatekey", "dreamstone", "rubyknife", "rainbowshell", "prismshard", "tools", "racelog", "dactyl"],
+							[ "pendant1", "ctrigger", "clone", "tomapop", "jerky", "moonstone", "sunstone", "jetsoftime"],
+							[ "jetsoftime2", "pendant2", "go"]
+			]	
 		}
 	},
 	"tracker_default":

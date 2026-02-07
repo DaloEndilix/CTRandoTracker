@@ -519,7 +519,7 @@ function updateEventsAndBosses(segment)
   updateBoss("dragontankboss", segment, 0x7F0199, 0x04)
   updateBoss("prisonrecruit", segment, 0x7F0199, 0x04)  
   updateBoss("yakraxiiiboss", segment, 0x7F0050, 0x40)
-  updateBoss("fairrecruit", segment, 0x7F0055, 0x01)  
+  updateBoss("fairrecruit", segment, 0x7F0055, 0x01)
   
   -- Future
   updateBoss("roboribbon", segment, 0x7F0107, 0x01)
@@ -554,7 +554,6 @@ function updateEventsAndBosses(segment)
   -- Only track events in the "Map Tracker" variant
   if not itemsOnlyTracking() then
     -- Prehistory
-    --keyItemChecksDone = keyItemChecksDone + updateEvent("@Reptite Lair/Defeat Nizbel", segment, 0x7F0105, 0x20)
 		updateEvent("@Dactyl Nest/Dactyl Flight", segment, 0x7F0160, 0x10)
 		updateEvent("@Laruba Ruins/Dactyl Flight", segment, 0x7F0160, 0x10)
 		updateEvent("@Laruba Ruins/Sleepy Nu", segment, 0x7F01AC, 0x20)
@@ -562,7 +561,6 @@ function updateEventsAndBosses(segment)
 		updateEvent("@Ioka Sweetwater Hut/Ioka Tonic", segment, 0x7F0160, 0x40)
     
     -- Dark Ages
-    --keyItemChecksDone = keyItemChecksDone + updateEvent("@Mt Woe/Defeat Giga Gaia", segment, 0x7F0100, 0x20) -- same as boss flag
 		updateEvent("@Kajar/Nu Scratch (Scratch Spot in Zeal)", segment, 0x7F00F6, 0x08)
 		updateEvent("@Terra Cave (Mt Woe Ent)/Tab Sparkle", segment, 0x7F01A4, 0x10)
 		updateEvent("@Mt Woe/Screen 4 Sparkle", segment, 0x7F01A4, 0x20)
@@ -570,9 +568,6 @@ function updateEventsAndBosses(segment)
 		updateEvent("@Kajar/Hidden Room Poyozo", segment, 0x7F00F4, 0x20)
 		updateEvent("@Terra Cave (Mt Woe Ent)/Mud Imp", segment, 0x7F0103, 0x04)
 		updateEvent("@Kajar/Research Room Sparkle", segment, 0x7F00F6, 0x04)
-	-- Don't check these events in Lost Worlds mode, they don't exist.
-      -- Moonstone is the only prehistory event that is not part of the Lost Worlds mode.
-      --updateEvent("@Sun Keep/Charge the Moonstone", segment, 0x7F013A, 0x40)
     
       -- Middle Ages
 		updateEvent("@Guardia Castle 600/Chef", segment, 0x7F00A9, 0x10)
@@ -592,32 +587,38 @@ function updateEventsAndBosses(segment)
 		updateEvent("@Giant's Claw (Defile Toma's Grave in 1000)/Behind Drop Skull Sparkle", segment, 0x7F01D3, 0x02)
 		updateEvent("@Giant's Claw (Defile Toma's Grave in 1000)/Caverns Sparkle After Drop", segment, 0x7F01D3, 0x80)
 		updateEvent("@Giant's Claw (Defile Toma's Grave in 1000)/Right Skull Sparkle", segment, 0x7F01D3, 0x40)
-      --updateEvent("@Manoria Cathedral/Saved by Frog", segment, 0x7F0100, 0x01)
-      --updateEvent("@Guardia Castle Past/Rescue Marle", segment, 0x7F00A1, 0x04)
-      --keyItemChecksDone = keyItemChecksDone + updateEvent("@Denadoro Mts/Defeat Masamune", segment, 0x7F0102, 0x02)
-      --keyItemChecksDone = keyItemChecksDone + updateEvent("@Fiona's Villa/Replant the Forest", segment, 0x7F007C, 0x80)    
-      --keyItemChecksDone = keyItemChecksDone + updateEvent("@Cursed Woods/Burrow Left Chest", segment, 0x7F0106, 0x04)
-      --updateEvent("@Cursed Woods/Return the Masamune", segment, 0x7F00FF, 0x20)
-      -- NOTE: Rainbow Shell flag is set after warping out of the cave
-      --       after interacting with the Rainbow Shell
-      --keyItemChecksDone = keyItemChecksDone + updateEvent("@Giant's Claw/Rainbow Shell", segment, 0x7F00A9, 0x80)
+		updateEvent("@Truce Inn 600/Sealed Chest", segment, 0x7F014A, 0x80)
+		updateEvent("@Guardia Forest 600/Sealed Chest", segment, 0x7F01D2, 0x80)
+		updateEvent("@Guardia Castle 600/Sealed Chest", segment, 0x7F00D9, 0x02)
     
       -- Present
-      keyItemChecksDone = keyItemChecksDone + updateEvent("@Millenial Fair/Marle Pendant", segment, 0x7F0054, 0x20)
-      keyItemChecksDone = keyItemChecksDone + updateEvent("@Snail Stop/Buy for 9900G", segment, 0x7F01D0, 0x10)
-      --keyItemChecksDone = keyItemChecksDone + updateEvent("@Choras Inn/Borrow Carpenter's Tools", segment, 0x7F019E, 0x80)
-      keyItemChecksDone = keyItemChecksDone + updateEvent("@Lucca's House/Taban's Gift", segment, 0x7F007A, 0x01)
-      --updateEvent("@Melchior's Hut/Reforge the Masamune", segment, 0x7F0103, 0x02)
-      --updateEvent("Guardia Castle Present/Prison Break", segment, 0x7F0199, 0x04)
-      -- The trial is a guess. Two flags go high here and I just picked one arbitrarily
-      keyItemChecksDone = keyItemChecksDone + updateEvent("@Guardia Castle 1000/King Guardia's Trial", segment, 0x7F00A2, 0x80)
-      --keyItemChecksDone = keyItemChecksDone + handleMelchiorRefinements(segment)
+		updateEvent("@Chrono's House/Allowance", segment, 0x7F0140, 0x02)
+		updateEvent("@Millenial Fair/Marle Pendant", segment, 0x7F0054, 0x20)
+		updateEvent("@Snail Stop/Buy for 9900G", segment, 0x7F01D0, 0x10)
+		updateEvent("@Lucca's House/Taban's Gift", segment, 0x7F007A, 0x01)
+		updateEvent("@Truce Inn 1000/Sealed Chest", segment, 0x7F014A, 0x20)
+		updateEvent("@Guardia Forest 1000/Sealed Chest", segment, 0x7F01D1, 0x20)
+		updateEvent("@Guardia Forest 1000/Tab Sparkle", segment, 0x7F01D3, 0x04)
+		updateEvent("@Guardia Castle 1000/Sealed Chest", segment, 0x7F00D9, 0x04)
+		updateEvent("@Guardia Castle 1000/Yakra Chest (Recruit and Key Item)", segment, 0x7F00A7, 0x80)
+		updateEvent("@Guardia Castle 1000/Melchior's Refinements (Rainbow)", segment, 0x7F006D, 0x20)
+		updateEvent("@Guardia Castle 1000/Melchior's Refinements (Sunstone)", segment, 0x7F0103, 0x20)
+		updateEvent("@Chrono Trial Prison/Cell Gift", segment, 0x7F019B, 0x80)
+		-- updateEvent("@Truce Mayor's House/Mayor Gift", segment, 
+		updateEvent("@Heckran Cave/Sealed Chest", segment, 0x7F01A0, 0x04)
+		updateEvent("@Medina Elder's House/Counter Sparkle", segment, 0x7F014A, 0x04)
+		updateEvent("@Medina Elder's House/Upstairs Sparkle", segment, 0x7F014A, 0x02)
+		updateEvent("@Forest Ruins/Blue Pyramid Sealed Chest (Left)", segment, 0x7F01A0, 0x01)
+		updateEvent("@Forest Ruins/Blue Pyramid Sealed Chest (Right)", segment, 0x7F0100, 0x04)
+		updateEvent("@West Cape/Behind Grave", segment, 0x7F01AC, 0x10)
+		updateEvent("@Choras Residence/Carpenter's Wife (Speak to Carpenter in Inn)", segment, 0x7F019E, 0x80)
       
     -- Future
-    --updateEvent("@Proto Dome/Fix Robo", segment, 0x7F00F3, 0x02)
-    --keyItemChecksDone = keyItemChecksDone + updateEvent("@Arris Dome/Activate the Computer", segment, 0x7F00A4, 0x01)
-    --keyItemChecksDone = keyItemChecksDone + updateEvent("@Sun Palace/Moon Stone", segment, 0x7F013A, 0x02) -- same as Son of Sun
-    --keyItemChecksDone = keyItemChecksDone + updateEvent("@Geno Dome/Defeat Mother Brain", segment, 0x7F013B, 0x10) -- Same as Mother Brain 
+	
+	-- Last Village
+		updateEvent("@North Cape/Recruit Character", segment, 0x7F0138, 0x02)
+		updateEvent("@Last Village Nu Hut/Sparkle Behind Nu", segment, 0x7F014A, 0x10)
+
   end -- end event tracking
   
   --CHECK_COUNTERS.base_checks = keyItemChecksDone
@@ -1178,11 +1179,11 @@ function updateChests(segment)
   --------------------------
   -- Guardia Castle Present 
   chests = {
-    ["King's Tower"] = {
+    ["Left Tower"] = {
       {0x1E, 0x08},
       {0x00, 0x10}
     },
-    ["Queen's Tower"] = {
+    ["Right Tower"] = {
       {0x1E, 0x10},
       {0x00, 0x20}
     },
@@ -1192,7 +1193,7 @@ function updateChests(segment)
     ["Prison Tower"] = {
       {0x1E, 0x40}
     },
-    ["Guardia Treasury"] = {
+    ["Rainbow Shell Treasury"] = {
       {0x00, 0x40},
       {0x00, 0x80},
       {0x01, 0x01},
@@ -1201,7 +1202,34 @@ function updateChests(segment)
       {0x1D, 0x04}
     }
   }
-  chestsOpened = chestsOpened + handleChests(segment, "@Guardia Castle Present/", chests)
+  chestsOpened = chestsOpened + handleChests(segment, "@Guardia Castle 1000/", chests)
+  
+  -- Chrono Trial Prison 
+  chests = {
+    ["Prison Treasury"] = {
+      {0x02, 0x02},
+      {0x02, 0x04},
+	  {0x02, 0x08},
+	  {0x02, 0x80}
+    },
+    ["Guillotine Chamber"] = {
+      {0x01, 0x02}
+    },
+    ["Fritz Chamber"] = {
+      {0x03, 0x01}
+    },
+    ["Empty Cell Chest"] = {
+      {0x02, 0x01}
+    },
+    ["Wall Climb Cell Chest"] = {
+      {0x02, 0x40}
+    }
+	["Hole Cell Chests"] = {
+      {0x02, 0x10},
+	  {0x02, 0x20}
+    }
+  }
+  chestsOpened = chestsOpened + handleChests(segment, "@Chrono Trial Prison/", chests)
   
   -- Truce Mayor's House
   chests = {
@@ -1222,7 +1250,7 @@ function updateChests(segment)
   
   -- Forest Ruins
   chests = {
-    ["Chests"] = {
+    ["Entry Chest"] = {
       {0x01, 0x04}
     }
   }
