@@ -592,7 +592,7 @@ function updateEventsAndBosses(segment)
 		updateEvent("@Guardia Castle 600/Sealed Chest", segment, 0x7F00D9, 0x02)
     
       -- Present
-		updateEvent("@Chrono's House/Allowance", segment, 0x7F0140, 0x02)
+		updateEvent("@Crono's House/Allowance", segment, 0x7F0140, 0x02)
 		updateEvent("@Millenial Fair/Marle Pendant", segment, 0x7F0054, 0x20)
 		updateEvent("@Snail Stop/Buy for 9900G", segment, 0x7F01D0, 0x10)
 		updateEvent("@Lucca's House/Taban's Gift", segment, 0x7F007A, 0x01)
@@ -603,7 +603,7 @@ function updateEventsAndBosses(segment)
 		updateEvent("@Guardia Castle 1000/Yakra Chest (Recruit and Key Item)", segment, 0x7F00A7, 0x80)
 		updateEvent("@Guardia Castle 1000/Melchior's Refinements (Rainbow)", segment, 0x7F006D, 0x20)
 		updateEvent("@Guardia Castle 1000/Melchior's Refinements (Sunstone)", segment, 0x7F0103, 0x20)
-		updateEvent("@Chrono Trial Prison/Cell Gift", segment, 0x7F019B, 0x80)
+		updateEvent("@Crono Trial Prison/Cell Gift", segment, 0x7F019B, 0x80)
 		-- updateEvent("@Truce Mayor's House/Mayor Gift", segment, 
 		updateEvent("@Heckran Cave/Sealed Chest", segment, 0x7F01A0, 0x04)
 		updateEvent("@Medina Elder's House/Counter Sparkle", segment, 0x7F014A, 0x04)
@@ -1229,7 +1229,7 @@ function updateChests(segment)
 	  {0x02, 0x20}
     }
   }
-  chestsOpened = chestsOpened + handleChests(segment, "@Chrono Trial Prison/", chests)
+  chestsOpened = chestsOpened + handleChests(segment, "@Crono Trial Prison/", chests)
   
   -- Truce Mayor's House
   chests = {
