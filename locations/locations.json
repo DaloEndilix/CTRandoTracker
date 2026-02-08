@@ -2516,7 +2516,7 @@
 						"sections":
 						[
 							{
-								"name": "Sealed Door",
+								"name": "Sealed Door Chests",
 								"access_rules": ["pendant2"],
 								"visibility_rules": ["chronosanity"],
 								"chest_unopened_img": "images/kino.png",

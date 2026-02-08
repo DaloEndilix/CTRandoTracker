@@ -504,8 +504,6 @@ function updateEventsAndBosses(segment)
   updateBoss("rusttyranoboss", segment, 0x7F01D2, 0x40)
   updateBoss("magusboss", segment, 0x7F01F9, 0x04)
   updateBoss("zomborboss", segment, 0x7F019A, 0x04)
-  --updateBoss("ozzie", segment, 0x7F019A, 0x04)
-  --keyItemChecksDone = keyItemChecksDone + handleZenanBridge(segment)
   
   -- Present
   updateBoss("fair", segment, 0x07F0054, 0x20)
@@ -529,17 +527,10 @@ function updateEventsAndBosses(segment)
   updateBoss("guardianboss", segment, 0x7F00A4, 0x01)
   updateBoss("moonstonecharge", segment, 0x7F013A, 0x40)
   updateBoss("rseriesboss", segment, 0x7F0102, 0x04)
-  -- Bit 1 goes high when the fight starts, bit 2 goes high when 
-  -- the item is collected after the fight
   updateBoss("sonofsunboss", segment, 0x7F013A, 0x02)
   updateBoss("motherbrainboss", segment, 0x7F013B, 0x10)
   updateBoss("lavosspawnboss", segment, 0x7F0057, 0x40)
   updateBoss("deathpeakrecruit", segment, 0x7F0057, 0x40)
-  -- This flag checks for completion of Death Peak rather than defeating Zeal.
-  -- The boss marker is listed under Death Peak and is required to mark it
-  -- as completed on the tracker.
-  -- This memory flag gets set based on what characters are in the party
-  -- when you reach the summit. Check to see if any of the bottom 3 bits are set
   updateBoss("zealboss", segment, 0x7F01A8, 0x80)
   updateBoss("gaspar", segment, 0x7F007C, 0x01)
   updateBoss("count1", segment, 0x7F0106, 0x01)
@@ -582,7 +573,7 @@ function updateEventsAndBosses(segment)
 		updateEvent("@Ozzie's Fort/Guillotine Room Sparkle (Hidden)", segment, 0x7F01A4, 0x40)
 		updateEvent("@Sun Keep 600/Tab Sparkle", segment, 0x7F014A, 0x02)
 		updateEvent("@Northern Ruins 600 (Carpenter Fixes)/Basement Chest", segment, 0x7F01AC, 0x02)
-		updateEvent("@Northern Ruins 600 (Carpenter Fixes)/Caverns Sparkle After Drop", segment, 0x7F01AC, 0x08)
+		updateEvent("@Northern Ruins 600 (Carpenter Fixes)/Left Room Chest", segment, 0x7F01AC, 0x08)
 		updateEvent("@Choras Cafe/Toma's Pop", segment, 0x7F01A0, 0x02)
 		updateEvent("@Giant's Claw (Defile Toma's Grave in 1000)/Behind Drop Skull Sparkle", segment, 0x7F01D3, 0x02)
 		updateEvent("@Giant's Claw (Defile Toma's Grave in 1000)/Caverns Sparkle After Drop", segment, 0x7F01D3, 0x80)
@@ -612,8 +603,21 @@ function updateEventsAndBosses(segment)
 		updateEvent("@Forest Ruins/Blue Pyramid Sealed Chest (Right)", segment, 0x7F0100, 0x04)
 		updateEvent("@West Cape/Behind Grave", segment, 0x7F01AC, 0x10)
 		updateEvent("@Choras Residence/Carpenter's Wife (Speak to Carpenter in Inn)", segment, 0x7F019E, 0x80)
+		-- updateEvent("@Northern Ruins 1000 (Carpenter Fixes in 600)/Grave Room Sparkle", segment,
+		updateEvent("@Northern Ruins 1000 (Carpenter Fixes in 600)/Basement Chest", segment, 0x7F01AC, 0x01)
+		updateEvent("@Northern Ruins 1000 (Carpenter Fixes in 600)/Left Room Chest", segment, 0x7F01AC, 0x04)
       
     -- Future
+		updateEvent("@Trann Dome/Sealed Door Sparkle", segment, 0x7F00D5, 0x04)
+		updateEvent("@Arris Dome/Sealed Door Sparkle", segment, 0x7F00D5, 0x08)
+		updateEvent("@Lab 32/Johnny Race Score Tab", segment, 0x7F0136, 0x02)
+		updateEvent("@Keeper's Dome/Sealed Door Sparkle", segment, 0x7F0070, 0x02)
+		updateEvent("@Death Peak/Entrance Sparkle", segment, 0x7F007C, 0x08)
+		updateEvent("@Proto Dome/Time Gate Sparkle", segment, 0x7F014A, 0x01)
+		updateEvent("@Geno Dome/Sparkle Under Switch Poyozo Doll", segment, 0x7F014B, 0x01)
+		updateEvent("@Geno Dome/Sparkle Hidden in Secret Passage Above Conveyor", segment, 0x7F014A, 0x04)
+		updateEvent("@Geno Dome/Second Floor Red Hallway Sparkle", segment, 0x7F014A, 0x08)
+		updateEvent("@Geno Dome/Sparkle Above Atropos XR Fight", segment, 0x7F014B, 0x02)
 	
 	-- Last Village
 		updateEvent("@North Cape/Recruit Character", segment, 0x7F0138, 0x02)
@@ -1136,20 +1140,31 @@ function updateChests(segment)
   chests = {
   -- Throne room chests are shared between here and Tyrano Lair.
   -- They are not currently being used in Chronosanity.
-  --  ["Throne Room"] = {
-  --    {0x16, 0x04},
-  --    {0x16, 0x08}
-  --  },
-    ["Entrance"] = {
-      {0x0B, 0x04}, -- Left chest after throne room
+	["Entrance Throne Room"] = {
+      {0x16, 0x04},
+      {0x16, 0x08}
+    },
+    ["Cave After Throne"] = {
+      {0x0B, 0x04} -- Left chest after throne room
+    },
+	["Behind Cave Skull"] = {
       {0x03, 0x04}  -- Chest north of the pit you jump down
     },
-    ["Caverns"] = {
-      {0x0B, 0x80}, -- Caverns room 1
-      -- {0x0B, 0x40}, -- Blue Rock - Rock chests not included in Chronosanity
+    ["Ladder Caverns"] = {
       {0x0B, 0x20}, -- Caverns room 2, left side
-      {0x0B, 0x10}, -- Caverns room 2, right side
+      {0x0B, 0x10} -- Caverns room 2, right side
+    },
+	["Caverns After Drop"] = {
+      {0x0B, 0x80}, -- Caverns room 1
+      {0x0B, 0x40}, -- Blue Rock - Rock chests not included in Chronosanity
+	  {0x0B, 0x04}
+	  
+    },
+	["Left Switch Cave"] = {
       {0x0B, 0x08}  -- Left door of pit room
+    },
+	["Chest Drop"] = {
+      {0x03, 0x04}
     },
     ["Kino's Cell"] = {
       {0x03, 0x02}  -- Kino's Cell
@@ -1272,7 +1287,7 @@ function updateChests(segment)
   --------------------------
   -- Bangor Dome
   chests = {
-    ["Sealed Door"] = {
+    ["Sealed Door Chests"] = {
       {0x0D, 0x01},
       {0x0D, 0x02},
       {0x0D, 0x04}
@@ -1282,7 +1297,7 @@ function updateChests(segment)
   
   -- Trann Dome
   chests = {
-    ["Sealed Door"] = {
+    ["Sealed Door Chests"] = {
       {0x0D, 0x08},
       {0x0D, 0x10}
     }
@@ -1291,11 +1306,13 @@ function updateChests(segment)
   
   -- Arris Dome 
   chests = {
-    ["Chests"] = {
-      {0x0E, 0x02}, -- Passageway
+    ["Food Storage Chest"] = {
       {0x1A, 0x01}  -- Food Storage
     },
-    ["Sealed Door"] = {
+	["LR+A Chest"] = {
+      {0x0E, 0x02}, -- Passageway
+    },
+    ["Sealed Door Chests"] = {
       {0x0E, 0x04}, 
       {0x0E, 0x08},
       {0x0E, 0x10}, 
@@ -1337,7 +1354,7 @@ function updateChests(segment)
   }
   chestsOpened = chestsOpened + handleChests(segment, "@Sewers/", chests)
   
-  -- Lab16
+  -- Lab 16
   chests = {
     ["Chests"] = {
       {0x0D, 0x20}, -- Chest 2 (after 3 volcanos)
@@ -1346,36 +1363,76 @@ function updateChests(segment)
       {0x0E, 0x01}  -- East side chest
     }
   }
-  chestsOpened = chestsOpened + handleChests(segment, "@Lab16/", chests)
+  chestsOpened = chestsOpened + handleChests(segment, "@Lab 16/", chests)
   
-  -- Lab32
+  -- Lab 32
   chests = {
-    ["Chests"] = {
+    ["Entrance Chest"] = {
       {0x0E, 0x80}
+    },
+	["Middle Chest"] = {
+      {0x0F, 0x01}
     }
   }
-  chestsOpened = chestsOpened + handleChests(segment, "@Lab32/", chests)
+  chestsOpened = chestsOpened + handleChests(segment, "@Lab 32/", chests)
   
   -- Geno Dome 
   chests = {
-    ["First Floor"] = {
+    ["Central Chest"] = {
       {0x11, 0x08}, -- Control Room (By electricity)
-      {0x11, 0x10}, -- Robot storage top chest
-      {0x11, 0x20}, -- Robot storage bottom chest
-      {0x11, 0x40}, -- Far left chest (by 2nd doll)
+    },
+	["Entryway Treasure Room"] = {
       {0x11, 0x80}, -- South electricity room, left chest
-      {0x12, 0x01}, -- South electricity room, right chest
-      {0x12, 0x02}, -- Proto 4 room, top chest
+      {0x12, 0x01} -- South electricity room, right chest
+    },
+	["Doppelganger Chest"] = {
+      {0x11, 0x40} -- Far left chest (by 2nd doll)
+    },
+	["Right Side Treasure Room"] = {
+      {0x11, 0x10}, -- Robot storage top chest
+      {0x11, 0x20} -- Robot storage bottom chest
+    },
+	["Conveyor Charge Treasure Room"] = {
+	  {0x12, 0x02}, -- Proto 4 room, top chest
       {0x12, 0x04}  -- Proto 4 room, bottom chest
     },
-    ["Second Floor"] = {
-      {0x13, 0x02}, -- Back catwalk chest
-      {0x13, 0x04}, -- Laser cell chest
-      {0x13, 0x08}, -- Left catwalk chest
+    ["Entry Catwalk Chest"] = {
+      {0x13, 0x08} -- Left catwalk chest
+    },
+	["Catwalk Room Chest"] = {
+      {0x13, 0x02} -- Back catwalk chest
+    },
+	["Chest Above Atropos XR Fight"] = {
+      {0x13, 0x04} -- Laser cell chest
+    },
+	["Second Floor Bottom Right Chest"] = {
       {0x13, 0x10}  -- Chest by first set of laser guards
     }
   }
   chestsOpened = chestsOpened + handleChests(segment, "@Geno Dome/", chests)
+  
+  -- Death Peak 
+  chests = {
+    ["First Area Chest"] = {
+      {0x10, 0x80}
+    },
+	["Save Point Chest"] = {
+      {0x11, 0x04}
+    },
+	["Cave Chests"] = {
+      {0x12, 0x40},
+	  {0x13, 0x01},
+	  {0x12, 0x80}
+    },
+	["Monster Dispenser Chest"] = {
+      {0x12, 0x20}
+    },
+	["Final Climb Chests"] = {
+      {0x11, 0x01},
+	  {0x11, 0x02}
+    },
+  }
+  chestsOpened = chestsOpened + handleChests(segment, "@Death Peak/", chests)
   
   CHECK_COUNTERS.chests = chestsOpened
   --updateCollectionCount()
